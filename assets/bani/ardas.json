@@ -1,0 +1,11 @@
+{
+  "id": "ardas",
+  "nameGurmukhi": "ਅਰਦਾਸ",
+  "nameEnglish": "Ardas",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥", "hindi": "ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥", "english": "Verse 1 of Ardas", "translation": "Verse 1 of Ardas", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥ ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ਪਾਤਸਾਹੀ ੧੦ ॥", "hindi": "ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥ ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ਪਾਤਸਾਹੀ ੧੦ ॥", "english": "Verse 2 of Ardas", "translation": "Verse 2 of Ardas", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਪ੍ਰਿਥਮ ਭਗੌਤੀ ਸਿਮਰਿ ਕੈ ਗੁਰ ਨਾਨਕ ਲਈ ਧਿਆਇ ॥", "hindi": "ਪ੍ਰਿਥਮ ਭਗੌਤੀ ਸਿਮਰਿ ਕੈ ਗੁਰ ਨਾਨਕ ਲਈ ਧਿਆਇ ॥", "english": "Verse 3 of Ardas", "translation": "Verse 3 of Ardas", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

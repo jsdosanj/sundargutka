@@ -1,0 +1,11 @@
+{
+  "id": "chandi_di_vaar",
+  "nameGurmukhi": "ਚੰਡੀ ਦੀ ਵਾਰ",
+  "nameEnglish": "Chandi Di Vaar",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਚੰਡੀ ਦੀ ਵਾਰ ॥", "hindi": "ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਚੰਡੀ ਦੀ ਵਾਰ ॥", "english": "Verse 1 of Chandi Di Vaar", "translation": "Verse 1 of Chandi Di Vaar", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਖੰਡੇ ਦੀ ਧਾਰ ਤੇ ਸੱਚੁ ਰਹੈ ॥ ਸੱਚੁ ਅਕਾਲ ਪੁਰਖ ਤੇ ਸਕਲ ਸਹੈ ॥", "hindi": "ਖੰਡੇ ਦੀ ਧਾਰ ਤੇ ਸੱਚੁ ਰਹੈ ॥ ਸੱਚੁ ਅਕਾਲ ਪੁਰਖ ਤੇ ਸਕਲ ਸਹੈ ॥", "english": "Verse 2 of Chandi Di Vaar", "translation": "Verse 2 of Chandi Di Vaar", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਦੇਵੀ ਦੁਰਗਾ ਰਣ ਵਿੱਚ ਆਈ ॥ ਰਣ ਵਿੱਚ ਮਚਾਈ ਧੁੰਧੂਕਾਰ ਵਡਾਈ ॥", "hindi": "ਦੇਵੀ ਦੁਰਗਾ ਰਣ ਵਿੱਚ ਆਈ ॥ ਰਣ ਵਿੱਚ ਮਚਾਈ ਧੁੰਧੂਕਾਰ ਵਡਾਈ ॥", "english": "Verse 3 of Chandi Di Vaar", "translation": "Verse 3 of Chandi Di Vaar", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

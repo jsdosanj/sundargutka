@@ -1,0 +1,29 @@
+{
+  "id": "kirtan_sohila",
+  "nameGurmukhi": "ਕੀਰਤਨੁ ਸੋਹਿਲਾ",
+  "nameEnglish": "Kirtan Sohila",
+  "author": "Various Gurus",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Shabads",
+      "gurmukhi": "ਜੈ ਘਰਿ ਕੀਰਤਿ ਆਖੀਐ ਕਰਤੇ ਕਾ ਹੋਇ ਬੀਚਾਰੋ ॥",
+      "hindi": "जै घरि कीरति आखीऐ करते का होइ बीचारो ॥", "english": "In that house where the Praises of the Creator are chanted and contemplated",
+      "translation": "In the home where the Praise of the Creator is sung and contemplated",
+      "vishraams": [{"position": 4, "type": "short"}, {"position": 8, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Shabads",
+      "gurmukhi": "ਤਿਤੁ ਘਰਿ ਗਾਵਹੁ ਸੋਹਿਲਾ ਸਿਵਰਿਹੁ ਸਿਰਜਣਹਾਰੋ ॥੧॥",
+      "hindi": "तितु घरि गावहु सोहिला सिवरिहु सिरजणहारो ॥१॥", "english": "Sing in that house the Song of Praise, and remember the Creator.",
+      "translation": "In that home, sing the Song of Praise and remember the Creator.",
+      "vishraams": [{"position": 3, "type": "short"}, {"position": 6, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Shabads",
+      "gurmukhi": "ਤੁਮ ਗਾਵਹੁ ਮੇਰੇ ਨਿਰਭਉ ਕਾ ਸੋਹਿਲਾ ॥",
+      "hindi": "तुम गावहु मेरे निरभउ का सोहिला ॥", "english": "Sing the Song of Praise of my Fearless Lord.",
+      "translation": "Sing the song of praise of my Fearless Lord.",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 6, "type": "long"}]
+    }
+  ]
+}

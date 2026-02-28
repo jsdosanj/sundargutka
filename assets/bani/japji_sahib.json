@@ -1,0 +1,147 @@
+{
+  "id": "japji_sahib",
+  "nameGurmukhi": "ਜਪੁ",
+  "nameEnglish": "Japji Sahib",
+  "author": "Guru Nanak Dev Ji",
+  "verses": [
+    {
+      "id": 1,
+      "verseNumber": 1,
+      "section": "Mool Mantar",
+      "gurmukhi": "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥",
+      "hindi": "ੴ सति नामु करता पुरखु निरभउ निरवैरु अकाल मूरति अजूनी सैभं गुर प्रसादि ॥",
+      "english": "One Universal Creator God. The Name Is Truth. Creative Being Personified. No Fear. No Hatred. Image Of The Undying. Beyond Birth. Self-Existent. By Guru's Grace.",
+      "translation": "There is One God. His Name is True. He is the Creator. He has no Fear. He has no Enmity. His form is timeless. He is not born. He is self-illumined. He is realized by Guru's Grace.",
+      "vishraams": [
+        {"position": 1, "type": "short"},
+        {"position": 3, "type": "short"},
+        {"position": 5, "type": "short"},
+        {"position": 7, "type": "short"},
+        {"position": 9, "type": "short"},
+        {"position": 11, "type": "long"}
+      ]
+    },
+    {
+      "id": 2,
+      "verseNumber": 2,
+      "section": "Jap",
+      "gurmukhi": "ਜਪੁ ॥",
+      "hindi": "जपु ॥",
+      "english": "Chant And Meditate:",
+      "translation": "Chant.",
+      "vishraams": [
+        {"position": 0, "type": "long"}
+      ]
+    },
+    {
+      "id": 3,
+      "verseNumber": 3,
+      "section": "Slok",
+      "gurmukhi": "ਆਦਿ ਸਚੁ ਜੁਗਾਦਿ ਸਚੁ ॥ ਹੈ ਭੀ ਸਚੁ ਨਾਨਕ ਹੋਸੀ ਭੀ ਸਚੁ ॥੧॥",
+      "hindi": "आदि सचु जुगादि सचु ॥ है भी सचु नानक होसी भी सचु ॥१॥",
+      "english": "True In The Primal Beginning. True Throughout The Ages. True Here And Now. O Nanak, Forever And Ever True.",
+      "translation": "True in the beginning, True through all the ages. True even now, and True forever, O Nanak.",
+      "vishraams": [
+        {"position": 1, "type": "short"},
+        {"position": 3, "type": "long"},
+        {"position": 5, "type": "short"},
+        {"position": 8, "type": "long"}
+      ]
+    },
+    {
+      "id": 4,
+      "verseNumber": 4,
+      "section": "Pauri 1",
+      "gurmukhi": "ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ ਲਖ ਵਾਰ ॥",
+      "hindi": "सोचै सोचि न होवई जे सोची लख वार ॥",
+      "english": "By thinking, He cannot be reduced to thought, even by thinking hundreds of thousands of times.",
+      "translation": "By purification, the mind cannot be purified, even if one purifies it a hundred thousand times.",
+      "vishraams": [
+        {"position": 1, "type": "short"},
+        {"position": 4, "type": "short"},
+        {"position": 8, "type": "long"}
+      ]
+    },
+    {
+      "id": 5,
+      "verseNumber": 5,
+      "section": "Pauri 1",
+      "gurmukhi": "ਚੁਪੈ ਚੁਪ ਨ ਹੋਵਈ ਜੇ ਲਾਇ ਰਹਾ ਲਿਵ ਤਾਰ ॥",
+      "hindi": "चुपै चुप न होवई जे लाइ रहा लिव तार ॥",
+      "english": "By remaining silent, inner silence is not obtained, even by remaining lovingly absorbed deep within.",
+      "translation": "By silence, the mind is not silenced, even if one remains lovingly absorbed in deep meditation.",
+      "vishraams": [
+        {"position": 1, "type": "short"},
+        {"position": 4, "type": "short"},
+        {"position": 9, "type": "long"}
+      ]
+    },
+    {
+      "id": 6,
+      "verseNumber": 6,
+      "section": "Pauri 1",
+      "gurmukhi": "ਭੁਖਿਆ ਭੁਖ ਨ ਉਤਰੀ ਜੇ ਬੰਨਾ ਪੁਰੀਆ ਭਾਰ ॥",
+      "hindi": "भुखिआ भुख न उतरी जे बंना पुरीआ भार ॥",
+      "english": "Hunger is not appeased, even by piling up loads of worldly goods.",
+      "translation": "The hunger of the hungry is not satisfied even if they amass the wealth of mountains.",
+      "vishraams": [
+        {"position": 1, "type": "short"},
+        {"position": 4, "type": "short"},
+        {"position": 9, "type": "long"}
+      ]
+    },
+    {
+      "id": 7,
+      "verseNumber": 7,
+      "section": "Pauri 1",
+      "gurmukhi": "ਸਹਸ ਸਿਆਣਪਾ ਲਖ ਹੋਹਿ ਤ ਇਕ ਨ ਚਲੈ ਨਾਲਿ ॥",
+      "hindi": "सहस सिआणपा लख होहि त इक न चलै नालि ॥",
+      "english": "Thousands of clever tricks, but not even one of them will go along with you in the end.",
+      "translation": "Even if one has hundreds of thousands of clever ideas, not one of them will accompany in the end.",
+      "vishraams": [
+        {"position": 2, "type": "short"},
+        {"position": 5, "type": "short"},
+        {"position": 10, "type": "long"}
+      ]
+    },
+    {
+      "id": 8,
+      "verseNumber": 8,
+      "section": "Pauri 1",
+      "gurmukhi": "ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ ਕਿਵ ਕੂੜੈ ਤੁਟੈ ਪਾਲਿ ॥",
+      "hindi": "किव सचिआरा होईऐ किव कूड़ै तुटै पालि ॥",
+      "english": "So how can you become truthful? And how can the veil of illusion be torn away?",
+      "translation": "How then can one become truthful? How can the veil of falsehood be removed?",
+      "vishraams": [
+        {"position": 2, "type": "short"},
+        {"position": 6, "type": "long"}
+      ]
+    },
+    {
+      "id": 9,
+      "verseNumber": 9,
+      "section": "Pauri 1",
+      "gurmukhi": "ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ ਨਾਨਕ ਲਿਖਿਆ ਨਾਲਿ ॥੧॥",
+      "hindi": "हुकमि रजाई चलणा नानक लिखिआ नालि ॥१॥",
+      "english": "O Nanak, it is written that you shall obey the Hukam of His Command, and walk in the Way of His Will.",
+      "translation": "O Nanak, it is written that by obeying the Will of God, one becomes truthful.",
+      "vishraams": [
+        {"position": 2, "type": "short"},
+        {"position": 5, "type": "long"}
+      ]
+    },
+    {
+      "id": 10,
+      "verseNumber": 10,
+      "section": "Pauri 2",
+      "gurmukhi": "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥",
+      "hindi": "हुकमी होवनि आकार हुकमु न कहिआ जाई ॥",
+      "english": "By His Command, bodies are created; His Command cannot be described.",
+      "translation": "By the Hukam of His Command, forms are created; the Hukam cannot be described.",
+      "vishraams": [
+        {"position": 2, "type": "short"},
+        {"position": 5, "type": "long"}
+      ]
+    }
+  ]
+}

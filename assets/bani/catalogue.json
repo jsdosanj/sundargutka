@@ -1,0 +1,373 @@
+{
+  "banis": [
+    {
+      "id": "japji_sahib",
+      "nameGurmukhi": "ਜਪੁ",
+      "nameEnglish": "Japji Sahib",
+      "category": "taksal",
+      "fileName": "japji_sahib.json",
+      "totalVerses": 40,
+      "isNitnem": true
+    },
+    {
+      "id": "jaap_sahib",
+      "nameGurmukhi": "ਜਾਪੁ ਸਾਹਿਬ",
+      "nameEnglish": "Jaap Sahib",
+      "category": "taksal",
+      "fileName": "jaap_sahib.json",
+      "totalVerses": 199,
+      "isNitnem": true
+    },
+    {
+      "id": "tav_prasad_swayay",
+      "nameGurmukhi": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ ਸ੍ਵਯੇ",
+      "nameEnglish": "Tav Prasad Swayay",
+      "category": "taksal",
+      "fileName": "tav_prasad_swayay.json",
+      "totalVerses": 10,
+      "isNitnem": true
+    },
+    {
+      "id": "chaupai_sahib",
+      "nameGurmukhi": "ਬੇਨਤੀ ਚੌਪਈ",
+      "nameEnglish": "Chaupai Sahib",
+      "category": "taksal",
+      "fileName": "chaupai_sahib.json",
+      "totalVerses": 25,
+      "isNitnem": true
+    },
+    {
+      "id": "anand_sahib",
+      "nameGurmukhi": "ਅਨੰਦੁ ਸਾਹਿਬ",
+      "nameEnglish": "Anand Sahib",
+      "category": "taksal",
+      "fileName": "anand_sahib.json",
+      "totalVerses": 40,
+      "isNitnem": true
+    },
+    {
+      "id": "rehras_sahib",
+      "nameGurmukhi": "ਰਹਰਾਸਿ ਸਾਹਿਬ",
+      "nameEnglish": "Rehras Sahib",
+      "category": "taksal",
+      "fileName": "rehras_sahib.json",
+      "totalVerses": 30,
+      "isNitnem": true
+    },
+    {
+      "id": "kirtan_sohila",
+      "nameGurmukhi": "ਕੀਰਤਨੁ ਸੋਹਿਲਾ",
+      "nameEnglish": "Kirtan Sohila",
+      "category": "taksal",
+      "fileName": "kirtan_sohila.json",
+      "totalVerses": 5,
+      "isNitnem": true
+    },
+    {
+      "id": "sukhmani_sahib",
+      "nameGurmukhi": "ਸੁਖਮਨੀ ਸਾਹਿਬ",
+      "nameEnglish": "Sukhmani Sahib",
+      "category": "taksal",
+      "fileName": "sukhmani_sahib.json",
+      "totalVerses": 192,
+      "isNitnem": false
+    },
+    {
+      "id": "asa_di_vaar",
+      "nameGurmukhi": "ਆਸਾ ਦੀ ਵਾਰ",
+      "nameEnglish": "Asa Di Vaar",
+      "category": "taksal",
+      "fileName": "asa_di_vaar.json",
+      "totalVerses": 44,
+      "isNitnem": false
+    },
+    {
+      "id": "sidh_gosht",
+      "nameGurmukhi": "ਸਿਧ ਗੋਸਟਿ",
+      "nameEnglish": "Sidh Gosht",
+      "category": "taksal",
+      "fileName": "sidh_gosht.json",
+      "totalVerses": 73,
+      "isNitnem": false
+    },
+    {
+      "id": "dakhni_oankar",
+      "nameGurmukhi": "ਦਖਣੀ ਓਅੰਕਾਰੁ",
+      "nameEnglish": "Dakhni Oankar",
+      "category": "taksal",
+      "fileName": "dakhni_oankar.json",
+      "totalVerses": 54,
+      "isNitnem": false
+    },
+    {
+      "id": "barah_maha",
+      "nameGurmukhi": "ਬਾਰਹ ਮਾਹਾ",
+      "nameEnglish": "Barah Maha",
+      "category": "taksal",
+      "fileName": "barah_maha.json",
+      "totalVerses": 14,
+      "isNitnem": false
+    },
+    {
+      "id": "shabad_hazare",
+      "nameGurmukhi": "ਸ਼ਬਦ ਹਜ਼ਾਰੇ",
+      "nameEnglish": "Shabad Hazare",
+      "category": "taksal",
+      "fileName": "shabad_hazare.json",
+      "totalVerses": 10,
+      "isNitnem": false
+    },
+    {
+      "id": "salok_mahalla_9",
+      "nameGurmukhi": "ਸਲੋਕ ਮਹਲਾ ੯",
+      "nameEnglish": "Salok Mahalla 9",
+      "category": "taksal",
+      "fileName": "salok_mahalla_9.json",
+      "totalVerses": 57,
+      "isNitnem": false
+    },
+    {
+      "id": "dukh_bhanjani",
+      "nameGurmukhi": "ਦੁਖ ਭੰਜਨੀ ਸਾਹਿਬ",
+      "nameEnglish": "Dukh Bhanjani Sahib",
+      "category": "taksal",
+      "fileName": "dukh_bhanjani.json",
+      "totalVerses": 21,
+      "isNitnem": false
+    },
+    {
+      "id": "akal_ustat",
+      "nameGurmukhi": "ਅਕਾਲ ਉਸਤਤਿ",
+      "nameEnglish": "Akal Ustat",
+      "category": "taksal",
+      "fileName": "akal_ustat.json",
+      "totalVerses": 25,
+      "isNitnem": false
+    },
+    {
+      "id": "bachittar_natak",
+      "nameGurmukhi": "ਬਚਿਤ੍ਰ ਨਾਟਕ",
+      "nameEnglish": "Bachittar Natak",
+      "category": "taksal",
+      "fileName": "bachittar_natak.json",
+      "totalVerses": 30,
+      "isNitnem": false
+    },
+    {
+      "id": "rehras_buddaDal",
+      "nameGurmukhi": "ਰਹਰਾਸਿ",
+      "nameEnglish": "Rehras - Budda Dal",
+      "category": "buddaDal",
+      "fileName": "rehras_buddaDal.json",
+      "totalVerses": 30,
+      "isNitnem": false
+    },
+    {
+      "id": "aarti_aarta",
+      "nameGurmukhi": "ਆਰਤੀ ਆਰਤਾ",
+      "nameEnglish": "Aarti Aarta",
+      "category": "buddaDal",
+      "fileName": "aarti_aarta.json",
+      "totalVerses": 10,
+      "isNitnem": false
+    },
+    {
+      "id": "ardas",
+      "nameGurmukhi": "ਅਰਦਾਸ",
+      "nameEnglish": "Ardas",
+      "category": "buddaDal",
+      "fileName": "ardas.json",
+      "totalVerses": 15,
+      "isNitnem": false
+    },
+    {
+      "id": "chandi_charitar_ustat",
+      "nameGurmukhi": "ਚੰਡੀ ਚਰਿਤ੍ਰ ਉਕਤਿ ਬਿਲਾਸ",
+      "nameEnglish": "Chandi Charitar Ustat",
+      "category": "buddaDal",
+      "fileName": "chandi_charitar_ustat.json",
+      "totalVerses": 50,
+      "isNitnem": false
+    },
+    {
+      "id": "slok_dumally_da",
+      "nameGurmukhi": "ਸਲੋਕ ਦੁਮੱਲੇ ਦਾ",
+      "nameEnglish": "Slok Dumally Da",
+      "category": "buddaDal",
+      "fileName": "slok_dumally_da.json",
+      "totalVerses": 20,
+      "isNitnem": false
+    },
+    {
+      "id": "brahm_kavach",
+      "nameGurmukhi": "ਬ੍ਰਹਮ ਕਵਚ",
+      "nameEnglish": "Brahm Kavach",
+      "category": "buddaDal",
+      "fileName": "brahm_kavach.json",
+      "totalVerses": 20,
+      "isNitnem": false
+    },
+    {
+      "id": "bhagauti_ustotar",
+      "nameGurmukhi": "ਭਗਉਤੀ ਉਸਤੋਤਰ",
+      "nameEnglish": "Bhagauti Ustotar",
+      "category": "buddaDal",
+      "fileName": "bhagauti_ustotar.json",
+      "totalVerses": 10,
+      "isNitnem": false
+    },
+    {
+      "id": "ugardanti",
+      "nameGurmukhi": "ਉਗਰਦੰਤੀ",
+      "nameEnglish": "Ugardanti",
+      "category": "buddaDal",
+      "fileName": "ugardanti.json",
+      "totalVerses": 20,
+      "isNitnem": false
+    },
+    {
+      "id": "karni_nama",
+      "nameGurmukhi": "ਕਰਨੀ ਨਾਮਾ",
+      "nameEnglish": "Karni Nama",
+      "category": "buddaDal",
+      "fileName": "karni_nama.json",
+      "totalVerses": 15,
+      "isNitnem": false
+    },
+    {
+      "id": "shastar_naam_mala",
+      "nameGurmukhi": "ਸ਼ਸਤ੍ਰ ਨਾਮ ਮਾਲਾ",
+      "nameEnglish": "Shastar Naam Mala",
+      "category": "buddaDal",
+      "fileName": "shastar_naam_mala.json",
+      "totalVerses": 30,
+      "isNitnem": false
+    },
+    {
+      "id": "khalsa_mool_mantar",
+      "nameGurmukhi": "ਖ਼ਾਲਸਾ ਮੂਲ ਮੰਤਰ",
+      "nameEnglish": "Khalsa Mool Mantar",
+      "category": "buddaDal",
+      "fileName": "khalsa_mool_mantar.json",
+      "totalVerses": 5,
+      "isNitnem": false
+    },
+    {
+      "id": "khalsa_rehitnama",
+      "nameGurmukhi": "ਖ਼ਾਲਸਾ ਰਹਿਤਨਾਮਾ",
+      "nameEnglish": "Khalsa Rehitnama",
+      "category": "buddaDal",
+      "fileName": "khalsa_rehitnama.json",
+      "totalVerses": 20,
+      "isNitnem": false
+    },
+    {
+      "id": "akal_ustat_hazuri",
+      "nameGurmukhi": "ਅਕਾਲ ਉਸਤਤਿ",
+      "nameEnglish": "Akal Ustat - Hazuri",
+      "category": "hazuriDas",
+      "fileName": "akal_ustat_hazuri.json",
+      "totalVerses": 25,
+      "isNitnem": false
+    },
+    {
+      "id": "bachittar_natak_hazuri",
+      "nameGurmukhi": "ਬਚਿਤ੍ਰ ਨਾਟਕ",
+      "nameEnglish": "Bachittar Natak - Hazuri",
+      "category": "hazuriDas",
+      "fileName": "bachittar_natak_hazuri.json",
+      "totalVerses": 30,
+      "isNitnem": false
+    },
+    {
+      "id": "chandi_charittar",
+      "nameGurmukhi": "ਚੰਡੀ ਚਰਿਤ੍ਰ",
+      "nameEnglish": "Chandi Charittar",
+      "category": "hazuriDas",
+      "fileName": "chandi_charittar.json",
+      "totalVerses": 50,
+      "isNitnem": false
+    },
+    {
+      "id": "chandi_di_vaar",
+      "nameGurmukhi": "ਚੰਡੀ ਦੀ ਵਾਰ",
+      "nameEnglish": "Chandi Di Vaar",
+      "category": "hazuriDas",
+      "fileName": "chandi_di_vaar.json",
+      "totalVerses": 55,
+      "isNitnem": false
+    },
+    {
+      "id": "gian_parbodh",
+      "nameGurmukhi": "ਗਿਆਨ ਪ੍ਰਬੋਧ",
+      "nameEnglish": "Gian Parbodh",
+      "category": "hazuriDas",
+      "fileName": "gian_parbodh.json",
+      "totalVerses": 20,
+      "isNitnem": false
+    },
+    {
+      "id": "khalsa_mehma",
+      "nameGurmukhi": "ਖ਼ਾਲਸਾ ਮਹਿਮਾ",
+      "nameEnglish": "Khalsa Mehma",
+      "category": "hazuriDas",
+      "fileName": "khalsa_mehma.json",
+      "totalVerses": 10,
+      "isNitnem": false
+    },
+    {
+      "id": "swayay_33",
+      "nameGurmukhi": "੩੩ ਸਵੈਯੇ",
+      "nameEnglish": "33 Swayay",
+      "category": "hazuriDas",
+      "fileName": "swayay_33.json",
+      "totalVerses": 33,
+      "isNitnem": false
+    },
+    {
+      "id": "swayay_16",
+      "nameGurmukhi": "੧੬ ਸਵੈਯੇ",
+      "nameEnglish": "16 Swayay",
+      "category": "hazuriDas",
+      "fileName": "swayay_16.json",
+      "totalVerses": 16,
+      "isNitnem": false
+    },
+    {
+      "id": "barah_maha_dasam",
+      "nameGurmukhi": "ਬਾਰਹ ਮਾਹਾ ਦਸਮ ਗ੍ਰੰਥ",
+      "nameEnglish": "Barah Maha - Dasam Granth",
+      "category": "hazuriDas",
+      "fileName": "barah_maha_dasam.json",
+      "totalVerses": 12,
+      "isNitnem": false
+    },
+    {
+      "id": "rehras_hazuri",
+      "nameGurmukhi": "ਰਹਰਾਸਿ ਹਾਜ਼ਰੀ",
+      "nameEnglish": "Rehras - Hazuri",
+      "category": "hazuriDas",
+      "fileName": "rehras_hazuri.json",
+      "totalVerses": 30,
+      "isNitnem": false
+    },
+    {
+      "id": "aarti_hazuri",
+      "nameGurmukhi": "ਆਰਤੀ",
+      "nameEnglish": "Aarti - Hazuri",
+      "category": "hazuriDas",
+      "fileName": "aarti_hazuri.json",
+      "totalVerses": 8,
+      "isNitnem": false
+    },
+    {
+      "id": "sohila_hazuri",
+      "nameGurmukhi": "ਸੋਹਿਲਾ",
+      "nameEnglish": "Sohila - Hazuri",
+      "category": "hazuriDas",
+      "fileName": "sohila_hazuri.json",
+      "totalVerses": 5,
+      "isNitnem": false
+    }
+  ]
+}

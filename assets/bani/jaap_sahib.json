@@ -1,0 +1,43 @@
+{
+  "id": "jaap_sahib",
+  "nameGurmukhi": "ਜਾਪੁ ਸਾਹਿਬ",
+  "nameEnglish": "Jaap Sahib",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Chand",
+      "gurmukhi": "ਸ੍ਰੀ ਮੁਖਵਾਕ ਪਾਤਿਸਾਹੀ ੧੦ ॥",
+      "hindi": "श्री मुखवाक पातिसाही १० ॥", "english": "By the Divine Word of the Tenth King.",
+      "translation": "By the divine word of the tenth Guru.",
+      "vishraams": [{"position": 2, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Chand",
+      "gurmukhi": "ਚੱਕ੍ਰ ਚਿਹਨ ਅਰੁ ਬਰਨ ਜਾਤਿ ਅਰੁ ਪਾਤਿ ਨਹਿਨ ਜਿਹ ॥",
+      "hindi": "चक्र चिहन अरु बरन जाति अरु पाति नहिन जिह ॥", "english": "He who has no mark or sign, no color, caste or lineage.",
+      "translation": "He who has no distinguishing mark, sign, color, caste, or family.",
+      "vishraams": [{"position": 4, "type": "short"}, {"position": 9, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Chand",
+      "gurmukhi": "ਰੂਪ ਰੰਗ ਅਰੁ ਰੇਖ ਭੇਖ ਕੋਊ ਕਹਿ ਨ ਸਕਤ ਕਿਹ ॥",
+      "hindi": "रूप रंग अरु रेख भेख कोऊ कहि न सकत किह ॥", "english": "No one can describe His form, color, mark or appearance.",
+      "translation": "No one can describe His form, color, features, or dress.",
+      "vishraams": [{"position": 4, "type": "short"}, {"position": 9, "type": "long"}]
+    },
+    {
+      "id": 4, "verseNumber": 4, "section": "Chand",
+      "gurmukhi": "ਸਤਿ ਨਾਮੁ ਸਤਿ ਨਾਮੁ ਸਤਿ ਨਾਮੁ ਅਕਾਲ ਪੁਰਖ ਤੇਰਾ ਨਾਮੁ ॥",
+      "hindi": "सति नामु सति नामु सति नामु अकाल पुरख तेरा नामु ॥", "english": "True Name, True Name, True Name — O Eternal One, True is Your Name.",
+      "translation": "True Name, True Name, True Name — O Timeless One, Your Name is True.",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "short"}, {"position": 8, "type": "long"}]
+    },
+    {
+      "id": 5, "verseNumber": 5, "section": "Chand",
+      "gurmukhi": "ਅਜਪਾ ਜਾਪੁ ਅਭੇਦ ਅਲਖ ਅਨੰਤ ਨਾਮੁ ਤੇਰਾ ॥",
+      "hindi": "अजपा जापु अभेद अलख अनंत नामु तेरा ॥", "english": "The Unstruck Naam, the inscrutable, the imperceptible, infinite — Your Name.",
+      "translation": "Your Name is the unspoken meditation, without duality, imperceptible and infinite.",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    }
+  ]
+}

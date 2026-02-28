@@ -1,0 +1,43 @@
+{
+  "id": "sukhmani_sahib",
+  "nameGurmukhi": "ਸੁਖਮਨੀ ਸਾਹਿਬ",
+  "nameEnglish": "Sukhmani Sahib",
+  "author": "Guru Arjan Dev Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Salok",
+      "gurmukhi": "ਆਦਿ ਗੁਰਏ ਨਮਹ ॥ ਜੁਗਾਦਿ ਗੁਰਏ ਨਮਹ ॥ ਸਤਿਗੁਰਏ ਨਮਹ ॥ ਸ੍ਰੀ ਗੁਰਦੇਵਏ ਨਮਹ ॥",
+      "hindi": "आदि गुरए नमह ॥ जुगादि गुरए नमह ॥ सतिगुरए नमह ॥ श्री गुरदेवए नमह ॥", "english": "I bow to the Primal Guru. I bow to the Guru of the Ages. I bow to the True Guru. I bow to the Great Divine Guru.",
+      "translation": "I bow to the Primal Guru. I bow to the Guru of the Ages. I bow to the True Guru. I bow to the Divine Guru.",
+      "vishraams": [{"position": 2, "type": "long"}, {"position": 5, "type": "long"}, {"position": 7, "type": "long"}, {"position": 10, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Ashtpadi 1",
+      "gurmukhi": "ਸਿਮਰਉ ਸਿਮਰਿ ਸਿਮਰਿ ਸੁਖੁ ਪਾਵਉ ॥ ਕਲਿ ਕਲੇਸ ਤਨ ਮਾਹਿ ਮਿਟਾਵਉ ॥",
+      "hindi": "सिमरउ सिमरि सिमरि सुखु पावउ ॥ कलि कलेस तन माहि मिटावउ ॥", "english": "Meditating, meditating in remembrance, I find peace. The pains and troubles of the body are erased.",
+      "translation": "Meditating, meditating in remembrance, I attain peace. The sufferings and afflictions of the body are erased.",
+      "vishraams": [{"position": 4, "type": "long"}, {"position": 9, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Ashtpadi 1",
+      "gurmukhi": "ਸਿਮਰਉ ਜਾਸੁ ਬਿਸੁੰਭਰ ਏਕੈ ॥ ਨਾਮੁ ਜਪਤ ਅਗਨਿਤ ਅਨੇਕੈ ॥",
+      "hindi": "सिमरउ जासु बिसुंभर एकै ॥ नामु जपत अगनित अनेकै ॥", "english": "I meditate in remembrance on the One, the Universal Sustainer. Countless multitudes chant His Name.",
+      "translation": "Meditate on the One Universal Sustainer. Countless people chant His Name.",
+      "vishraams": [{"position": 3, "type": "long"}, {"position": 7, "type": "long"}]
+    },
+    {
+      "id": 4, "verseNumber": 4, "section": "Ashtpadi 1",
+      "gurmukhi": "ਬੇਦ ਪੁਰਾਨ ਸਿੰਮ੍ਰਿਤਿ ਸੁਧਾਖ੍ਯ੍ਯਰ ॥ ਕੀਨੇ ਰਾਮ ਨਾਮ ਇਕ ਆਖ੍ਯ੍ਯਰ ॥",
+      "hindi": "बेद पुरान सिंम्रिति सुधाख्यर ॥ कीने राम नाम इक आख्यर ॥", "english": "The Vedas, Puraanas and Simritees, the purest of utterances, were created from the One Word of the Lord's Name.",
+      "translation": "The Vedas, Puraanas and Simritees are the nectar; they were created from the one Word of God.",
+      "vishraams": [{"position": 3, "type": "long"}, {"position": 7, "type": "long"}]
+    },
+    {
+      "id": 5, "verseNumber": 5, "section": "Ashtpadi 1",
+      "gurmukhi": "ਕਿਨਕਾ ਏਕ ਜਿਸੁ ਜੀਅ ਬਸਾਵੈ ॥ ਤਾ ਕੀ ਮਹਿਮਾ ਗਨੀ ਨ ਆਵੈ ॥",
+      "hindi": "किनका एक जिसु जीअ बसावै ॥ ता की महिमा गनी न आवै ॥", "english": "One who enshrines even a tiny bit of it in the mind — his glory cannot be measured.",
+      "translation": "One who enshrines even a particle of it in their mind — their glory cannot be counted.",
+      "vishraams": [{"position": 3, "type": "long"}, {"position": 8, "type": "long"}]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "shastar_naam_mala",
+  "nameGurmukhi": "ਸ਼ਸਤ੍ਰ ਨਾਮ ਮਾਲਾ",
+  "nameEnglish": "Shastar Naam Mala",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ਸ੍ਰੀ ਮੁਖਵਾਕ ਪਾਤਿਸਾਹੀ ੧੦ ॥ ਸ਼ਸਤ੍ਰ ਨਾਮ ਮਾਲਾ ਪੁਰਾਣ ॥", "hindi": "ਸ੍ਰੀ ਮੁਖਵਾਕ ਪਾਤਿਸਾਹੀ ੧੦ ॥ ਸ਼ਸਤ੍ਰ ਨਾਮ ਮਾਲਾ ਪੁਰਾਣ ॥", "english": "Verse 1 of Shastar Naam Mala", "translation": "Verse 1 of Shastar Naam Mala", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਖੰਡ ਦੰਡ ਤੇਗ ਪ੍ਰਮਾਣ ॥ ਤੁਮ ਹੀ ਸਰਬ ਸ਼ਸਤ੍ਰ ਜਾਣ ॥", "hindi": "ਖੰਡ ਦੰਡ ਤੇਗ ਪ੍ਰਮਾਣ ॥ ਤੁਮ ਹੀ ਸਰਬ ਸ਼ਸਤ੍ਰ ਜਾਣ ॥", "english": "Verse 2 of Shastar Naam Mala", "translation": "Verse 2 of Shastar Naam Mala", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਚਕ੍ਰ ਤ੍ਰਿਸ਼ੂਲ ਬਾਣ ਪ੍ਰਮਾਣ ॥ ਤੁਮ ਹੀ ਜਲ ਥਲ ਮਾਹਿ ਸਮਾਣ ॥", "hindi": "ਚਕ੍ਰ ਤ੍ਰਿਸ਼ੂਲ ਬਾਣ ਪ੍ਰਮਾਣ ॥ ਤੁਮ ਹੀ ਜਲ ਥਲ ਮਾਹਿ ਸਮਾਣ ॥", "english": "Verse 3 of Shastar Naam Mala", "translation": "Verse 3 of Shastar Naam Mala", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}
