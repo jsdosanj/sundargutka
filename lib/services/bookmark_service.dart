@@ -9,10 +9,21 @@ class BookmarkService {
       final prefs = await SharedPreferences.getInstance();
       final jsonStr = prefs.getString(AppConstants.keyBookmarks);
       if (jsonStr == null) return [];
-      final List<dynamic> decoded = json.decode(jsonStr) as List;
-      return decoded
-          .map((e) => Bookmark.fromJson(e as Map<String, dynamic>))
-          .toList();
+      final decoded = json.decode(jsonStr);
+      if (decoded is! List) return [];
+      final result = <Bookmark>[];
+      for (final e in decoded) {
+        if (e is Map<String, dynamic>) {
+          try {
+            result.add(Bookmark.fromJson(e));
+          } on FormatException {
+            continue;
+          }
+        }
+      }
+      return result;
+    } on FormatException {
+      return [];
     } catch (_) {
       return [];
     }
@@ -23,7 +34,11 @@ class BookmarkService {
       final prefs = await SharedPreferences.getInstance();
       final jsonStr = json.encode(bookmarks.map((b) => b.toJson()).toList());
       await prefs.setString(AppConstants.keyBookmarks, jsonStr);
-    } catch (_) {}
+    } on FormatException {
+      // Encoding failure — non-fatal
+    } catch (_) {
+      // Storage write failure — non-fatal
+    }
   }
 
   Future<void> addBookmark(Bookmark bookmark) async {

@@ -15,14 +15,44 @@ class Bookmark {
     required this.createdAt,
   });
 
-  factory Bookmark.fromJson(Map<String, dynamic> json) => Bookmark(
-        id: json['id'] as String,
-        baniId: json['baniId'] as String,
-        baniName: json['baniName'] as String,
-        verseIndex: json['verseIndex'] as int,
-        versePreview: json['versePreview'] as String,
-        createdAt: DateTime.parse(json['createdAt'] as String),
-      );
+  factory Bookmark.fromJson(Map<String, dynamic> json) {
+    final id = json['id'];
+    final baniId = json['baniId'];
+    final baniName = json['baniName'];
+    final verseIndex = json['verseIndex'];
+    final versePreview = json['versePreview'];
+    final createdAtRaw = json['createdAt'];
+
+    if (id is! String ||
+        baniId is! String ||
+        baniName is! String ||
+        verseIndex is! int ||
+        versePreview is! String ||
+        createdAtRaw is! String) {
+      throw const FormatException('Bookmark JSON has missing or invalid fields.');
+    }
+
+    // verseIndex must be non-negative
+    if (verseIndex < 0) {
+      throw const FormatException('Bookmark verseIndex must be non-negative.');
+    }
+
+    final DateTime createdAt;
+    try {
+      createdAt = DateTime.parse(createdAtRaw);
+    } on FormatException {
+      throw const FormatException('Bookmark createdAt is not a valid ISO-8601 date.');
+    }
+
+    return Bookmark(
+      id: id,
+      baniId: baniId,
+      baniName: baniName,
+      verseIndex: verseIndex,
+      versePreview: versePreview,
+      createdAt: createdAt,
+    );
+  }
 
   Map<String, dynamic> toJson() => {
         'id': id,

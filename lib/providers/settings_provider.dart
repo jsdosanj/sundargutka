@@ -12,6 +12,13 @@ class SettingsProvider extends ChangeNotifier {
   String _backgroundTheme = AppConstants.themeLight;
   bool _fullScreenMode = false;
 
+  // Allowlist for background themes
+  static const List<String> _validThemes = [
+    AppConstants.themeLight,
+    AppConstants.themeSepia,
+    AppConstants.themeDark,
+  ];
+
   double get fontSize => _fontSize;
   String get fontFamily => _fontFamily;
   TextAlign get textAlign => _textAlign;
@@ -23,17 +30,27 @@ class SettingsProvider extends ChangeNotifier {
 
   Future<void> loadSettings() async {
     final prefs = await SharedPreferences.getInstance();
-    _fontSize =
-        prefs.getDouble(AppConstants.keyFontSize) ?? AppConstants.defaultFontSize;
-    _fontFamily =
-        prefs.getString(AppConstants.keyFontFamily) ?? AppConstants.defaultFontFamily;
+
+    final savedSize = prefs.getDouble(AppConstants.keyFontSize) ?? AppConstants.defaultFontSize;
+    _fontSize = savedSize.clamp(AppConstants.minFontSize, AppConstants.maxFontSize);
+
+    final savedFamily = prefs.getString(AppConstants.keyFontFamily) ?? AppConstants.defaultFontFamily;
+    _fontFamily = AppConstants.availableFonts.contains(savedFamily)
+        ? savedFamily
+        : AppConstants.defaultFontFamily;
+
     final alignValue = prefs.getString(AppConstants.keyTextAlign) ?? 'left';
     _textAlign = _textAlignFromString(alignValue);
     _lareevarMode = prefs.getBool(AppConstants.keyLareevarMode) ?? false;
     _showHindi = prefs.getBool(AppConstants.keyShowHindi) ?? false;
     _showVishraams = prefs.getBool(AppConstants.keyShowVishraams) ?? true;
-    _backgroundTheme =
+
+    final savedTheme =
         prefs.getString(AppConstants.keyBackgroundTheme) ?? AppConstants.themeLight;
+    _backgroundTheme = _validThemes.contains(savedTheme)
+        ? savedTheme
+        : AppConstants.themeLight;
+
     _fullScreenMode = prefs.getBool(AppConstants.keyFullScreenMode) ?? false;
     notifyListeners();
   }
@@ -45,7 +62,9 @@ class SettingsProvider extends ChangeNotifier {
     await prefs.setDouble(AppConstants.keyFontSize, _fontSize);
   }
 
+  /// Only accepts font families from the known allowlist.
   Future<void> setFontFamily(String family) async {
+    if (!AppConstants.availableFonts.contains(family)) return;
     _fontFamily = family;
     notifyListeners();
     final prefs = await SharedPreferences.getInstance();
@@ -80,7 +99,9 @@ class SettingsProvider extends ChangeNotifier {
     await prefs.setBool(AppConstants.keyShowVishraams, _showVishraams);
   }
 
+  /// Only accepts themes from the known allowlist.
   Future<void> setBackgroundTheme(String theme) async {
+    if (!_validThemes.contains(theme)) return;
     _backgroundTheme = theme;
     notifyListeners();
     final prefs = await SharedPreferences.getInstance();

@@ -4,10 +4,17 @@ class Vishraam {
 
   const Vishraam({required this.position, required this.type});
 
-  factory Vishraam.fromJson(Map<String, dynamic> json) => Vishraam(
-        position: json['position'] as int,
-        type: json['type'] as String,
-      );
+  factory Vishraam.fromJson(Map<String, dynamic> json) {
+    final position = json['position'];
+    final type = json['type'];
+    if (position is! int || type is! String) {
+      throw const FormatException('Vishraam JSON has invalid fields.');
+    }
+    if (position < 0) {
+      throw const FormatException('Vishraam position must be non-negative.');
+    }
+    return Vishraam(position: position, type: type);
+  }
 
   Map<String, dynamic> toJson() => {
         'position': position,
@@ -36,18 +43,39 @@ class Verse {
     this.section,
   });
 
-  factory Verse.fromJson(Map<String, dynamic> json) => Verse(
-        id: json['id'] as int,
-        gurmukhi: json['gurmukhi'] as String,
-        hindi: json['hindi'] as String?,
-        english: json['english'] as String?,
-        translation: json['translation'] as String?,
-        vishraams: (json['vishraams'] as List<dynamic>? ?? [])
-            .map((v) => Vishraam.fromJson(v as Map<String, dynamic>))
-            .toList(),
-        verseNumber: json['verseNumber'] as int,
-        section: json['section'] as String?,
-      );
+  factory Verse.fromJson(Map<String, dynamic> json) {
+    final id = json['id'];
+    final gurmukhi = json['gurmukhi'];
+    final verseNumber = json['verseNumber'];
+
+    if (id is! int || gurmukhi is! String || verseNumber is! int) {
+      throw const FormatException('Verse JSON has missing or invalid fields.');
+    }
+
+    final List<Vishraam> vishraams;
+    try {
+      vishraams = (json['vishraams'] as List<dynamic>? ?? [])
+          .map((v) => Vishraam.fromJson(v as Map<String, dynamic>))
+          .toList();
+    } on FormatException {
+      rethrow;
+    } catch (_) {
+      throw const FormatException('Vishraam list is malformed.');
+    }
+
+    return Verse(
+      id: id,
+      gurmukhi: gurmukhi,
+      hindi: json['hindi'] is String ? json['hindi'] as String : null,
+      english: json['english'] is String ? json['english'] as String : null,
+      translation: json['translation'] is String
+          ? json['translation'] as String
+          : null,
+      vishraams: vishraams,
+      verseNumber: verseNumber,
+      section: json['section'] is String ? json['section'] as String : null,
+    );
+  }
 
   Map<String, dynamic> toJson() => {
         'id': id,

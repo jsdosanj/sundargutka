@@ -26,9 +26,22 @@ class GurmukhiUtils {
 
   /// Returns only Gurmukhi words from a mixed string.
   static List<String> extractGurmukhiWords(String text) {
-    return splitIntoWords(text).where((w) => isGurmukhi(w[0])).toList();
+    return splitIntoWords(text).where((w) => w.isNotEmpty && isGurmukhi(w[0])).toList();
   }
 
   /// Counts the number of words in a Gurmukhi string.
   static int wordCount(String text) => splitIntoWords(text).length;
+
+  /// Returns a safe preview of [text] limited to [maxChars] Unicode code points
+  /// (not raw UTF-16 code units). This prevents splitting surrogate pairs or
+  /// combining diacritics mid-character for multi-byte Gurmukhi script.
+  ///
+  /// Appends [ellipsis] when the text is truncated.
+  static String safePreview(String text, {int maxChars = 60, String ellipsis = '…'}) {
+    if (text.isEmpty) return text;
+    // runes gives code points, which are the correct unit for Gurmukhi
+    final runes = text.runes.toList();
+    if (runes.length <= maxChars) return text;
+    return String.fromCharCodes(runes.take(maxChars)) + ellipsis;
+  }
 }

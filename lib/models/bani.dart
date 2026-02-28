@@ -17,15 +17,33 @@ class Bani {
     this.isNitnem = false,
   });
 
-  factory Bani.fromJson(Map<String, dynamic> json) => Bani(
-        id: json['id'] as String,
-        nameGurmukhi: json['nameGurmukhi'] as String,
-        nameEnglish: json['nameEnglish'] as String,
-        category: json['category'] as String,
-        fileName: json['fileName'] as String,
-        totalVerses: json['totalVerses'] as int,
-        isNitnem: json['isNitnem'] as bool? ?? false,
-      );
+  factory Bani.fromJson(Map<String, dynamic> json) {
+    final id = json['id'];
+    final nameGurmukhi = json['nameGurmukhi'];
+    final nameEnglish = json['nameEnglish'];
+    final category = json['category'];
+    final fileName = json['fileName'];
+    final totalVerses = json['totalVerses'];
+
+    if (id is! String ||
+        nameGurmukhi is! String ||
+        nameEnglish is! String ||
+        category is! String ||
+        fileName is! String ||
+        totalVerses is! int) {
+      throw const FormatException('Bani JSON has missing or invalid fields.');
+    }
+
+    return Bani(
+      id: id,
+      nameGurmukhi: nameGurmukhi,
+      nameEnglish: nameEnglish,
+      category: category,
+      fileName: fileName,
+      totalVerses: totalVerses,
+      isNitnem: json['isNitnem'] is bool ? json['isNitnem'] as bool : false,
+    );
+  }
 
   Map<String, dynamic> toJson() => {
         'id': id,

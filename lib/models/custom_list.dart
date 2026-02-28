@@ -11,12 +11,37 @@ class CustomList {
     required this.createdAt,
   });
 
-  factory CustomList.fromJson(Map<String, dynamic> json) => CustomList(
-        id: json['id'] as String,
-        name: json['name'] as String,
-        baniIds: List<String>.from(json['baniIds'] as List),
-        createdAt: DateTime.parse(json['createdAt'] as String),
-      );
+  factory CustomList.fromJson(Map<String, dynamic> json) {
+    final id = json['id'];
+    final name = json['name'];
+    final baniIdsRaw = json['baniIds'];
+    final createdAtRaw = json['createdAt'];
+
+    if (id is! String ||
+        name is! String ||
+        baniIdsRaw is! List ||
+        createdAtRaw is! String) {
+      throw const FormatException(
+          'CustomList JSON has missing or invalid fields.');
+    }
+
+    final DateTime createdAt;
+    try {
+      createdAt = DateTime.parse(createdAtRaw);
+    } on FormatException {
+      throw const FormatException(
+          'CustomList createdAt is not a valid ISO-8601 date.');
+    }
+
+    return CustomList(
+      id: id,
+      name: name,
+      baniIds: baniIdsRaw
+          .whereType<String>()
+          .toList(),
+      createdAt: createdAt,
+    );
+  }
 
   Map<String, dynamic> toJson() => {
         'id': id,

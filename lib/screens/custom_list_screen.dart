@@ -86,6 +86,7 @@ class CustomListScreen extends StatelessWidget {
         content: TextField(
           controller: controller,
           autofocus: true,
+          maxLength: CustomListProvider.maxNameLength,
           decoration: const InputDecoration(hintText: 'List name'),
         ),
         actions: [
@@ -116,6 +117,7 @@ class CustomListScreen extends StatelessWidget {
         content: TextField(
           controller: controller,
           autofocus: true,
+          maxLength: CustomListProvider.maxNameLength,
           decoration: const InputDecoration(hintText: 'New name'),
         ),
         actions: [

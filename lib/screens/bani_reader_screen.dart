@@ -7,6 +7,7 @@ import '../models/bookmark.dart';
 import '../providers/bani_provider.dart';
 import '../providers/bookmark_provider.dart';
 import '../providers/settings_provider.dart';
+import '../utils/gurmukhi_utils.dart';
 import '../widgets/reader_toolbar.dart';
 import '../widgets/verse_widget.dart';
 
@@ -70,9 +71,7 @@ class _BaniReaderScreenState extends State<BaniReaderScreen> {
         baniId: widget.bani.id,
         baniName: widget.bani.nameEnglish,
         verseIndex: idx,
-        versePreview: verse.gurmukhi.length > 60
-            ? '${verse.gurmukhi.substring(0, 60)}...'
-            : verse.gurmukhi,
+        versePreview: GurmukhiUtils.safePreview(verse.gurmukhi),
         createdAt: DateTime.now(),
       );
       bookmarkProvider.addBookmark(bookmark);
