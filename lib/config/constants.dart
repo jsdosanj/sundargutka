@@ -5,10 +5,10 @@ class AppConstants {
   static const double defaultFontSize = 20.0;
 
   // Font families
-  static const String defaultFontFamily = 'AnmolUnicode';
+  static const String defaultFontFamily = 'NotoSansGurmukhi';
   static const List<String> availableFonts = [
-    'AnmolUnicode',
-    'Roboto',
+    'NotoSansGurmukhi',
+    'Poppins',
   ];
 
   // Background themes

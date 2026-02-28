@@ -24,8 +24,3 @@ flutter:
   uses-material-design: true
   assets:
     - assets/bani/
-    - assets/images/
-  fonts:
-    - family: AnmolUnicode
-      fonts:
-        - asset: assets/fonts/AnmolUnicode.ttf

@@ -16,7 +16,7 @@
   - Budda Dal
   - Hazuri Das Granthi
 - 🌅 **Vishraam (pause) highlighting** — Orange for long, green for short (jamki) pauses
-- 🔤 **Adjustable typography** — Font size slider (14–36px), AnmolUnicode/Roboto
+- 🔤 **Adjustable typography** — Font size slider (14–36px), NotoSansGurmukhi/Poppins
 - 🎨 **Three themes** — Light, Sepia, Dark/Night mode
 - 📝 **Lareevar mode** — Continuous Gurmukhi text without spaces
 - 🇮🇳 **Hindi transliteration** — Toggle on/off
@@ -40,7 +40,6 @@
 ### Prerequisites
 - Flutter SDK ≥ 3.0.0 (install from https://flutter.dev)
 - Android Studio or Xcode
-- AnmolUnicode font file placed at `assets/fonts/AnmolUnicode.ttf`
 
 ### Getting Started
 
@@ -86,7 +85,7 @@ lib/
 
 assets/
 ├── bani/            # catalogue.json + individual bani JSON files
-├── fonts/           # AnmolUnicode.ttf
+├── fonts/           # Custom Gurmukhi fonts (add AnmolUnicode.ttf optionally)
 └── images/          # App assets
 
 test/
