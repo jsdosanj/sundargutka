@@ -1,0 +1,11 @@
+{
+  "id": "ugardanti",
+  "nameGurmukhi": "ਉਗਰਦੰਤੀ",
+  "nameEnglish": "Ugardanti",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਉਗਰਦੰਤੀ ॥", "hindi": "ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਉਗਰਦੰਤੀ ॥", "english": "Verse 1 of Ugardanti", "translation": "Verse 1 of Ugardanti", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ॥ ਤੁਮ ਹੀ ਦੇਵੀ ਦੇਵ ਹੋ ਸਭਿ ਤੁਮ ਹੀ ਰਹਿਮਤਿ ਕਰਿਹੁ ॥", "hindi": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ॥ ਤੁਮ ਹੀ ਦੇਵੀ ਦੇਵ ਹੋ ਸਭਿ ਤੁਮ ਹੀ ਰਹਿਮਤਿ ਕਰਿਹੁ ॥", "english": "Verse 2 of Ugardanti", "translation": "Verse 2 of Ugardanti", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਤੁਮ ਹੀ ਦਾਤਾ ਤੁਮ ਹੀ ਭੋਗਤਾ ਤੁਮ ਹੀ ਅੰਤਰਯਾਮੀ ॥", "hindi": "ਤੁਮ ਹੀ ਦਾਤਾ ਤੁਮ ਹੀ ਭੋਗਤਾ ਤੁਮ ਹੀ ਅੰਤਰਯਾਮੀ ॥", "english": "Verse 3 of Ugardanti", "translation": "Verse 3 of Ugardanti", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

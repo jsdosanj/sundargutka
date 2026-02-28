@@ -1,0 +1,29 @@
+{
+  "id": "shabad_hazare",
+  "nameGurmukhi": "ਸ਼ਬਦ ਹਜ਼ਾਰੇ",
+  "nameEnglish": "Shabad Hazare",
+  "author": "Guru Arjan Dev Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Verse 1",
+      "gurmukhi": "ਮਿਤ੍ਰ ਪਿਆਰੇ ਨੂੰ ਹਾਲੁ ਮੁਰੀਦਾਂ ਦਾ ਕਹਣਾ ॥",
+      "hindi": "ਮਿਤ੍ਰ ਪਿਆਰੇ ਨੂੰ ਹਾਲੁ ਮੁਰੀਦਾਂ ਦਾ ਕਹਣਾ ॥", "english": "Verse 1 of Shabad Hazare",
+      "translation": "Verse 1 of Shabad Hazare",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Verse 2",
+      "gurmukhi": "ਯਾਰੜੇ ਦਾ ਸਾਨੂੰ ਸੱਥਰੁ ਚੰਗਾ ਭੱਠਿ ਖੇੜਾ ਦੋਜਕੁ ਨ ਜਾਣਾ ॥",
+      "hindi": "ਯਾਰੜੇ ਦਾ ਸਾਨੂੰ ਸੱਥਰੁ ਚੰਗਾ ਭੱਠਿ ਖੇੜਾ ਦੋਜਕੁ ਨ ਜਾਣਾ ॥", "english": "Verse 2 of Shabad Hazare",
+      "translation": "Verse 2 of Shabad Hazare",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Verse 3",
+      "gurmukhi": "ਸਤਿਗੁਰੁ ਮੇਰਾ ਮਾਰਿਆ ਮੈ ਹੋਇਆ ਢਾਹਿ ॥",
+      "hindi": "ਸਤਿਗੁਰੁ ਮੇਰਾ ਮਾਰਿਆ ਮੈ ਹੋਇਆ ਢਾਹਿ ॥", "english": "Verse 3 of Shabad Hazare",
+      "translation": "Verse 3 of Shabad Hazare",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "khalsa_mehma",
+  "nameGurmukhi": "ਖ਼ਾਲਸਾ ਮਹਿਮਾ",
+  "nameEnglish": "Khalsa Mehma",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ਖ਼ਾਲਸਾ ਮੇਰੋ ਰੂਪ ਹੈ ਖ਼ਾਸ ॥ ਖ਼ਾਲਸੇ ਮਹਿ ਹਉ ਕਰਉ ਨਿਵਾਸ ॥", "hindi": "ਖ਼ਾਲਸਾ ਮੇਰੋ ਰੂਪ ਹੈ ਖ਼ਾਸ ॥ ਖ਼ਾਲਸੇ ਮਹਿ ਹਉ ਕਰਉ ਨਿਵਾਸ ॥", "english": "Verse 1 of Khalsa Mehma", "translation": "Verse 1 of Khalsa Mehma", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਖ਼ਾਲਸਾ ਮੇਰੋ ਮੁਖੁ ਹੈ ਅੰਗਾ ॥ ਖ਼ਾਲਸੇ ਕੇ ਹਉ ਸਦ ਸਦ ਸੰਗਾ ॥", "hindi": "ਖ਼ਾਲਸਾ ਮੇਰੋ ਮੁਖੁ ਹੈ ਅੰਗਾ ॥ ਖ਼ਾਲਸੇ ਕੇ ਹਉ ਸਦ ਸਦ ਸੰਗਾ ॥", "english": "Verse 2 of Khalsa Mehma", "translation": "Verse 2 of Khalsa Mehma", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਖ਼ਾਲਸਾ ਅਕਾਲ ਪੁਰਖ ਕੀ ਫੌਜ ॥ ਪ੍ਰਗਟਿਓ ਖ਼ਾਲਸਾ ਪਰਮਾਤਮ ਕੀ ਮੌਜ ॥", "hindi": "ਖ਼ਾਲਸਾ ਅਕਾਲ ਪੁਰਖ ਕੀ ਫੌਜ ॥ ਪ੍ਰਗਟਿਓ ਖ਼ਾਲਸਾ ਪਰਮਾਤਮ ਕੀ ਮੌਜ ॥", "english": "Verse 3 of Khalsa Mehma", "translation": "Verse 3 of Khalsa Mehma", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

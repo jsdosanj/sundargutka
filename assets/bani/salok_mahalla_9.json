@@ -1,0 +1,29 @@
+{
+  "id": "salok_mahalla_9",
+  "nameGurmukhi": "ਸਲੋਕ ਮਹਲਾ ੯",
+  "nameEnglish": "Salok Mahalla 9",
+  "author": "Guru Tegh Bahadur Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Verse 1",
+      "gurmukhi": "ਜੋ ਨਰੁ ਦੁਖ ਮੈ ਦੁਖੁ ਨਹੀ ਮਾਨੈ ॥",
+      "hindi": "ਜੋ ਨਰੁ ਦੁਖ ਮੈ ਦੁਖੁ ਨਹੀ ਮਾਨੈ ॥", "english": "Verse 1 of Salok Mahalla 9",
+      "translation": "Verse 1 of Salok Mahalla 9",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Verse 2",
+      "gurmukhi": "ਸੁਖੁ ਦੁਖੁ ਦੋਨੋ ਸਮ ਕਰਿ ਜਾਨੈ ॥",
+      "hindi": "ਸੁਖੁ ਦੁਖੁ ਦੋਨੋ ਸਮ ਕਰਿ ਜਾਨੈ ॥", "english": "Verse 2 of Salok Mahalla 9",
+      "translation": "Verse 2 of Salok Mahalla 9",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Verse 3",
+      "gurmukhi": "ਭਉ ਨਾਹੀ ਜਾ ਕੈ ਮਨ ਮਾਹੀ ॥ ਸੋ ਮੁਕਤਾ ਕਹੁ ਕਹਾ ਕਹਾਹੀ ॥",
+      "hindi": "ਭਉ ਨਾਹੀ ਜਾ ਕੈ ਮਨ ਮਾਹੀ ॥ ਸੋ ਮੁਕਤਾ ਕਹੁ ਕਹਾ ਕਹਾਹੀ ॥", "english": "Verse 3 of Salok Mahalla 9",
+      "translation": "Verse 3 of Salok Mahalla 9",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    }
+  ]
+}

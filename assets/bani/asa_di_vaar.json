@@ -1,0 +1,29 @@
+{
+  "id": "asa_di_vaar",
+  "nameGurmukhi": "ਆਸਾ ਦੀ ਵਾਰ",
+  "nameEnglish": "Asa Di Vaar",
+  "author": "Guru Nanak Dev Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Verse 1",
+      "gurmukhi": "ਸਲੋਕੁ ਮਃ ੧ ॥ ਵਾਇਨਿ ਚੇਲੇ ਨਚਨਿ ਗੁਰ ॥",
+      "hindi": "ਸਲੋਕੁ ਮਃ ੧ ॥ ਵਾਇਨਿ ਚੇਲੇ ਨਚਨਿ ਗੁਰ ॥", "english": "Verse 1 of Asa Di Vaar",
+      "translation": "Verse 1 of Asa Di Vaar",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Verse 2",
+      "gurmukhi": "ਆਸਾ ਮਹਲਾ ੧ ॥ ਸੁਣਿ ਵਡਾ ਆਖੈ ਸਭੁ ਕੋਇ ॥",
+      "hindi": "ਆਸਾ ਮਹਲਾ ੧ ॥ ਸੁਣਿ ਵਡਾ ਆਖੈ ਸਭੁ ਕੋਇ ॥", "english": "Verse 2 of Asa Di Vaar",
+      "translation": "Verse 2 of Asa Di Vaar",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Verse 3",
+      "gurmukhi": "ਹਉ ਵਾਰੀ ਜੀਉ ਵਾਰੀ ਸੁਣਿ ਸਚੁ ਕਹਾਣੀ ॥",
+      "hindi": "ਹਉ ਵਾਰੀ ਜੀਉ ਵਾਰੀ ਸੁਣਿ ਸਚੁ ਕਹਾਣੀ ॥", "english": "Verse 3 of Asa Di Vaar",
+      "translation": "Verse 3 of Asa Di Vaar",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    }
+  ]
+}

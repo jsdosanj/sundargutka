@@ -1,0 +1,11 @@
+{
+  "id": "swayay_16",
+  "nameGurmukhi": "੧੬ ਸਵੈਯੇ",
+  "nameEnglish": "16 Swayay",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ਸ੍ਰੀ ਮੁਖਵਾਕ ਪਾਤਿਸਾਹੀ ੧੦ ॥ ੧੬ ਸਵੈਯੇ ॥", "hindi": "ਸ੍ਰੀ ਮੁਖਵਾਕ ਪਾਤਿਸਾਹੀ ੧੦ ॥ ੧੬ ਸਵੈਯੇ ॥", "english": "Verse 1 of 16 Swayay", "translation": "Verse 1 of 16 Swayay", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਮਾਨਸ ਕੀ ਜਾਤਿ ਸਬੈ ਏਕੈ ਪਹਿਚਾਨਬੋ ॥", "hindi": "ਮਾਨਸ ਕੀ ਜਾਤਿ ਸਬੈ ਏਕੈ ਪਹਿਚਾਨਬੋ ॥", "english": "Verse 2 of 16 Swayay", "translation": "Verse 2 of 16 Swayay", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਦੇਹ ਸਿਵਾ ਬਰੁ ਮੋਹਿ ਇਹੈ ਸੁਭ ਕਰਮਨ ਤੇ ਕਬਹੂੰ ਨ ਟਰੋਂ ॥", "hindi": "ਦੇਹ ਸਿਵਾ ਬਰੁ ਮੋਹਿ ਇਹੈ ਸੁਭ ਕਰਮਨ ਤੇ ਕਬਹੂੰ ਨ ਟਰੋਂ ॥", "english": "Verse 3 of 16 Swayay", "translation": "Verse 3 of 16 Swayay", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

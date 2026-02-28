@@ -1,0 +1,11 @@
+{
+  "id": "chandi_charitar_ustat",
+  "nameGurmukhi": "ਚੰਡੀ ਚਰਿਤ੍ਰ ਉਕਤਿ ਬਿਲਾਸ",
+  "nameEnglish": "Chandi Charitar Ustat",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ਸ੍ਰੀ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਚੰਡੀ ਚਰਿਤ੍ਰ ਉਕਤਿ ਬਿਲਾਸ ॥", "hindi": "ਸ੍ਰੀ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਚੰਡੀ ਚਰਿਤ੍ਰ ਉਕਤਿ ਬਿਲਾਸ ॥", "english": "Verse 1 of Chandi Charitar Ustat", "translation": "Verse 1 of Chandi Charitar Ustat", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਚੌਪਈ ॥ ਪ੍ਰਿਥਮ ਕਾਲ ਸਭ ਜਗਤ ਬਨਾਯੋ ॥", "hindi": "ਚੌਪਈ ॥ ਪ੍ਰਿਥਮ ਕਾਲ ਸਭ ਜਗਤ ਬਨਾਯੋ ॥", "english": "Verse 2 of Chandi Charitar Ustat", "translation": "Verse 2 of Chandi Charitar Ustat", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਤਾਹਿ ਸੁੰਭ ਨਿਸੁੰਭ ਸਤਾਇਓ ॥ ਦੇਵ ਦਾਨਵਨ ਜਬ ਰਣ ਪਾਯੋ ॥", "hindi": "ਤਾਹਿ ਸੁੰਭ ਨਿਸੁੰਭ ਸਤਾਇਓ ॥ ਦੇਵ ਦਾਨਵਨ ਜਬ ਰਣ ਪਾਯੋ ॥", "english": "Verse 3 of Chandi Charitar Ustat", "translation": "Verse 3 of Chandi Charitar Ustat", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

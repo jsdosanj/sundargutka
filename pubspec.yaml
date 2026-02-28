@@ -1,0 +1,26 @@
+name: sundargutka
+description: Sundar Gutka - Complete Gurbani Prayer Book for iOS and Android
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.1.0
+  scrollable_positioned_list: ^0.3.8
+  reorderables: ^0.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bani/
