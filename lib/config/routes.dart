@@ -15,10 +15,10 @@ class AppRoutes {
   static const String about = '/about';
 
   static Map<String, WidgetBuilder> get routes => {
-        home: (_) => const HomeScreen(),
-        settings: (_) => const SettingsScreen(),
-        bookmarks: (_) => const BookmarksScreen(),
-        customLists: (_) => const CustomListScreen(),
-        about: (_) => const AboutScreen(),
-      };
+    home: (_) => const HomeScreen(),
+    settings: (_) => const SettingsScreen(),
+    bookmarks: (_) => const BookmarksScreen(),
+    customLists: (_) => const CustomListScreen(),
+    about: (_) => const AboutScreen(),
+  };
 }

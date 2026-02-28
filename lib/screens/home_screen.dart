@@ -81,7 +81,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       )
                     : null,
                 filled: true,
-                fillColor: Theme.of(context).colorScheme.surfaceContainerHighest,
+                fillColor: Theme.of(
+                  context,
+                ).colorScheme.surfaceContainerHighest,
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(30),
                   borderSide: BorderSide.none,
@@ -141,11 +143,9 @@ class _HomeScreenState extends State<HomeScreen> {
         onDestinationSelected: _onNavTap,
         destinations: const [
           NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
-          NavigationDestination(
-              icon: Icon(Icons.bookmark), label: 'Bookmarks'),
+          NavigationDestination(icon: Icon(Icons.bookmark), label: 'Bookmarks'),
           NavigationDestination(icon: Icon(Icons.list), label: 'My Lists'),
-          NavigationDestination(
-              icon: Icon(Icons.settings), label: 'Settings'),
+          NavigationDestination(icon: Icon(Icons.settings), label: 'Settings'),
         ],
       ),
     );
@@ -153,9 +153,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _buildBaniList(BaniProvider provider) {
     final nitnem = provider.nitnemBanis;
-    final taksal = provider.taksalBanis
-        .where((b) => !b.isNitnem)
-        .toList();
+    final taksal = provider.taksalBanis.where((b) => !b.isNitnem).toList();
     final buddaDal = provider.buddaDalBanis;
     final hazuri = provider.hazuriDasBanis;
 
@@ -172,25 +170,24 @@ class _HomeScreenState extends State<HomeScreen> {
         if (taksal.isNotEmpty) ...[
           CategoryHeader(
             title: AppConstants.categoryNames[AppConstants.categoryTaksal]!,
-            titleGurmukhi:
-                AppConstants.categoryNamesGurmukhi[AppConstants.categoryTaksal]!,
+            titleGurmukhi: AppConstants
+                .categoryNamesGurmukhi[AppConstants.categoryTaksal]!,
           ),
           ...taksal.map((b) => BaniTile(bani: b, onTap: () => _openBani(b))),
         ],
         if (buddaDal.isNotEmpty) ...[
           CategoryHeader(
             title: AppConstants.categoryNames[AppConstants.categoryBuddaDal]!,
-            titleGurmukhi:
-                AppConstants.categoryNamesGurmukhi[AppConstants.categoryBuddaDal]!,
+            titleGurmukhi: AppConstants
+                .categoryNamesGurmukhi[AppConstants.categoryBuddaDal]!,
           ),
-          ...buddaDal
-              .map((b) => BaniTile(bani: b, onTap: () => _openBani(b))),
+          ...buddaDal.map((b) => BaniTile(bani: b, onTap: () => _openBani(b))),
         ],
         if (hazuri.isNotEmpty) ...[
           CategoryHeader(
             title: AppConstants.categoryNames[AppConstants.categoryHazuriDas]!,
-            titleGurmukhi:
-                AppConstants.categoryNamesGurmukhi[AppConstants.categoryHazuriDas]!,
+            titleGurmukhi: AppConstants
+                .categoryNamesGurmukhi[AppConstants.categoryHazuriDas]!,
           ),
           ...hazuri.map((b) => BaniTile(bani: b, onTap: () => _openBani(b))),
         ],

@@ -46,18 +46,23 @@ class ThemeSelector extends StatelessWidget {
                   ],
                 ),
                 child: isSelected
-                    ? Icon(Icons.check,
-                        color: theme.id == 'dark' ? Colors.white : Colors.black54,
-                        size: 20)
+                    ? Icon(
+                        Icons.check,
+                        color: theme.id == 'dark'
+                            ? Colors.white
+                            : Colors.black54,
+                        size: 20,
+                      )
                     : null,
               ),
               const SizedBox(height: 6),
-              Text(theme.label,
-                  style: TextStyle(
-                    fontSize: 13,
-                    fontWeight:
-                        isSelected ? FontWeight.bold : FontWeight.normal,
-                  )),
+              Text(
+                theme.label,
+                style: TextStyle(
+                  fontSize: 13,
+                  fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+                ),
+              ),
             ],
           ),
         );
@@ -70,5 +75,9 @@ class _ThemeOption {
   final String id;
   final String label;
   final Color color;
-  const _ThemeOption({required this.id, required this.label, required this.color});
+  const _ThemeOption({
+    required this.id,
+    required this.label,
+    required this.color,
+  });
 }

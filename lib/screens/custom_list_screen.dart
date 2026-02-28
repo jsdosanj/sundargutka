@@ -23,8 +23,10 @@ class CustomListScreen extends StatelessWidget {
                 children: [
                   const Icon(Icons.list_alt, size: 64, color: Colors.grey),
                   const SizedBox(height: 12),
-                  const Text('No custom lists yet',
-                      style: TextStyle(color: Colors.grey, fontSize: 16)),
+                  const Text(
+                    'No custom lists yet',
+                    style: TextStyle(color: Colors.grey, fontSize: 16),
+                  ),
                   const SizedBox(height: 16),
                   ElevatedButton.icon(
                     icon: const Icon(Icons.add),
@@ -43,8 +45,10 @@ class CustomListScreen extends StatelessWidget {
               return Card(
                 child: ListTile(
                   leading: const Icon(Icons.playlist_play),
-                  title: Text(list.name,
-                      style: const TextStyle(fontWeight: FontWeight.w600)),
+                  title: Text(
+                    list.name,
+                    style: const TextStyle(fontWeight: FontWeight.w600),
+                  ),
                   subtitle: Text('${list.baniIds.length} Bani(s)'),
                   trailing: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -77,7 +81,9 @@ class CustomListScreen extends StatelessWidget {
   }
 
   Future<void> _showCreateDialog(
-      BuildContext context, CustomListProvider provider) async {
+    BuildContext context,
+    CustomListProvider provider,
+  ) async {
     final controller = TextEditingController();
     await showDialog(
       context: context,
@@ -91,8 +97,9 @@ class CustomListScreen extends StatelessWidget {
         ),
         actions: [
           TextButton(
-              onPressed: () => Navigator.pop(context),
-              child: const Text('Cancel')),
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Cancel'),
+          ),
           TextButton(
             onPressed: () {
               if (controller.text.trim().isNotEmpty) {
@@ -107,8 +114,11 @@ class CustomListScreen extends StatelessWidget {
     );
   }
 
-  Future<void> _showRenameDialog(BuildContext context,
-      CustomListProvider provider, CustomList list) async {
+  Future<void> _showRenameDialog(
+    BuildContext context,
+    CustomListProvider provider,
+    CustomList list,
+  ) async {
     final controller = TextEditingController(text: list.name);
     await showDialog(
       context: context,
@@ -122,8 +132,9 @@ class CustomListScreen extends StatelessWidget {
         ),
         actions: [
           TextButton(
-              onPressed: () => Navigator.pop(context),
-              child: const Text('Cancel')),
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Cancel'),
+          ),
           TextButton(
             onPressed: () {
               if (controller.text.trim().isNotEmpty) {
@@ -138,8 +149,11 @@ class CustomListScreen extends StatelessWidget {
     );
   }
 
-  Future<void> _confirmDelete(BuildContext context, CustomListProvider provider,
-      CustomList list) async {
+  Future<void> _confirmDelete(
+    BuildContext context,
+    CustomListProvider provider,
+    CustomList list,
+  ) async {
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
@@ -147,8 +161,9 @@ class CustomListScreen extends StatelessWidget {
         content: Text('Delete "${list.name}"?'),
         actions: [
           TextButton(
-              onPressed: () => Navigator.pop(context, false),
-              child: const Text('Cancel')),
+            onPressed: () => Navigator.pop(context, false),
+            child: const Text('Cancel'),
+          ),
           TextButton(
             onPressed: () => Navigator.pop(context, true),
             child: const Text('Delete', style: TextStyle(color: Colors.red)),
@@ -162,8 +177,7 @@ class CustomListScreen extends StatelessWidget {
   void _showListDetail(BuildContext context, CustomList list) {
     Navigator.push(
       context,
-      MaterialPageRoute(
-          builder: (_) => _ListDetailScreen(customList: list)),
+      MaterialPageRoute(builder: (_) => _ListDetailScreen(customList: list)),
     );
   }
 }
@@ -193,9 +207,11 @@ class _ListDetailScreen extends StatelessWidget {
 
           if (list.baniIds.isEmpty) {
             return const Center(
-              child: Text('No Banis in this list yet.\nTap + to add.',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.grey)),
+              child: Text(
+                'No Banis in this list yet.\nTap + to add.',
+                textAlign: TextAlign.center,
+                style: TextStyle(color: Colors.grey),
+              ),
             );
           }
 
@@ -231,7 +247,8 @@ class _ListDetailScreen extends StatelessWidget {
                 onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (_) => BaniReaderScreen(bani: bani)),
+                    builder: (_) => BaniReaderScreen(bani: bani),
+                  ),
                 ),
               );
             },
@@ -248,31 +265,33 @@ class _ListDetailScreen extends StatelessWidget {
     showModalBottomSheet(
       context: context,
       builder: (_) {
-        return Consumer<CustomListProvider>(builder: (ctx, lp, _) {
-          final list = lp.lists.firstWhere(
-            (l) => l.id == customList.id,
-            orElse: () => customList,
-          );
-          return ListView(
-            children: baniProvider.allBanis.map((bani) {
-              final added = list.baniIds.contains(bani.id);
-              return ListTile(
-                title: Text(bani.nameGurmukhi),
-                subtitle: Text(bani.nameEnglish),
-                trailing: added
-                    ? const Icon(Icons.check, color: Color(0xFF4CAF50))
-                    : null,
-                onTap: () {
-                  if (!added) {
-                    listProvider.addBaniToList(list.id, bani.id);
-                  } else {
-                    listProvider.removeBaniFromList(list.id, bani.id);
-                  }
-                },
-              );
-            }).toList(),
-          );
-        });
+        return Consumer<CustomListProvider>(
+          builder: (ctx, lp, _) {
+            final list = lp.lists.firstWhere(
+              (l) => l.id == customList.id,
+              orElse: () => customList,
+            );
+            return ListView(
+              children: baniProvider.allBanis.map((bani) {
+                final added = list.baniIds.contains(bani.id);
+                return ListTile(
+                  title: Text(bani.nameGurmukhi),
+                  subtitle: Text(bani.nameEnglish),
+                  trailing: added
+                      ? const Icon(Icons.check, color: Color(0xFF4CAF50))
+                      : null,
+                  onTap: () {
+                    if (!added) {
+                      listProvider.addBaniToList(list.id, bani.id);
+                    } else {
+                      listProvider.removeBaniFromList(list.id, bani.id);
+                    }
+                  },
+                );
+              }).toList(),
+            );
+          },
+        );
       },
     );
   }

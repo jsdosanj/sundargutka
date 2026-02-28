@@ -46,14 +46,14 @@ class Bani {
   }
 
   Map<String, dynamic> toJson() => {
-        'id': id,
-        'nameGurmukhi': nameGurmukhi,
-        'nameEnglish': nameEnglish,
-        'category': category,
-        'fileName': fileName,
-        'totalVerses': totalVerses,
-        'isNitnem': isNitnem,
-      };
+    'id': id,
+    'nameGurmukhi': nameGurmukhi,
+    'nameEnglish': nameEnglish,
+    'category': category,
+    'fileName': fileName,
+    'totalVerses': totalVerses,
+    'isNitnem': isNitnem,
+  };
 
   @override
   String toString() => 'Bani($id, $nameEnglish)';

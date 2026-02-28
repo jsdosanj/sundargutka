@@ -10,7 +10,9 @@
 //   7. Vishraam position validation
 //   8. BookmarkProvider: resilience to corrupt stored data
 
+import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sundargutka/models/bani.dart';
 import 'package:sundargutka/models/bookmark.dart';
 import 'package:sundargutka/models/custom_list.dart';
@@ -22,6 +24,12 @@ import 'package:sundargutka/services/bani_data_service.dart';
 import 'package:sundargutka/utils/gurmukhi_utils.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  setUp(() async {
+    SharedPreferences.setMockInitialValues(<String, Object>{});
+  });
+
   // ─────────────────────────────────────────────────────────────────────────
   // 1. PATH TRAVERSAL PREVENTION
   // ─────────────────────────────────────────────────────────────────────────
@@ -127,20 +135,22 @@ void main() {
       );
     });
 
-    test('throws FormatException when verseIndex is a string instead of int',
-        () {
-      expect(
-        () => Bookmark.fromJson({
-          'id': 'b1',
-          'baniId': 'japji',
-          'baniName': 'Japji Sahib',
-          'verseIndex': '0', // wrong type
-          'versePreview': 'test',
-          'createdAt': DateTime.now().toIso8601String(),
-        }),
-        throwsA(isA<FormatException>()),
-      );
-    });
+    test(
+      'throws FormatException when verseIndex is a string instead of int',
+      () {
+        expect(
+          () => Bookmark.fromJson({
+            'id': 'b1',
+            'baniId': 'japji',
+            'baniName': 'Japji Sahib',
+            'verseIndex': '0', // wrong type
+            'versePreview': 'test',
+            'createdAt': DateTime.now().toIso8601String(),
+          }),
+          throwsA(isA<FormatException>()),
+        );
+      },
+    );
 
     test('succeeds with valid JSON', () {
       final now = DateTime.now();
@@ -219,8 +229,8 @@ void main() {
 
     test('throws FormatException when id is a string instead of int', () {
       expect(
-        () => Verse.fromJson(
-            {'id': 'one', 'gurmukhi': 'ਸਤਿ', 'verseNumber': 1}),
+        () =>
+            Verse.fromJson({'id': 'one', 'gurmukhi': 'ਸਤਿ', 'verseNumber': 1}),
         throwsA(isA<FormatException>()),
       );
     });
@@ -344,14 +354,16 @@ void main() {
       final provider = BookmarkProvider();
 
       for (int i = 0; i < BookmarkProvider.maxBookmarks + 10; i++) {
-        await provider.addBookmark(Bookmark(
-          id: 'bm_$i',
-          baniId: 'japji',
-          baniName: 'Japji Sahib',
-          verseIndex: i,
-          versePreview: 'verse $i',
-          createdAt: DateTime.now(),
-        ));
+        await provider.addBookmark(
+          Bookmark(
+            id: 'bm_$i',
+            baniId: 'japji',
+            baniName: 'Japji Sahib',
+            verseIndex: i,
+            versePreview: 'verse $i',
+            createdAt: DateTime.now(),
+          ),
+        );
       }
 
       expect(
@@ -408,10 +420,7 @@ void main() {
       final listId = provider.lists.first.id;
       await provider.addBaniToList(listId, 'japji');
       // oldIndex=5 is out of bounds for a 1-item list — must not throw
-      expect(
-        () async => provider.reorderBanis(listId, 5, 0),
-        returnsNormally,
-      );
+      expect(() async => provider.reorderBanis(listId, 5, 0), returnsNormally);
     });
   });
 
@@ -426,8 +435,11 @@ void main() {
         await provider.createList('List $i');
       }
       final ids = provider.lists.map((l) => l.id).toSet();
-      expect(ids.length, provider.lists.length,
-          reason: 'All IDs must be unique');
+      expect(
+        ids.length,
+        provider.lists.length,
+        reason: 'All IDs must be unique',
+      );
     });
   });
 
@@ -450,7 +462,8 @@ void main() {
 
     test('does not split Gurmukhi surrogate characters', () {
       // Multi-codepoint Gurmukhi string — ensure no half-characters
-      const gurmukhi = 'ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ';
+      const gurmukhi =
+          'ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ';
       final preview = GurmukhiUtils.safePreview(gurmukhi, maxChars: 30);
       // Each rune must be a valid Unicode code point
       for (final rune in preview.runes) {
@@ -464,7 +477,11 @@ void main() {
 
     test('uses custom ellipsis', () {
       final long = 'ਸ' * 100;
-      final preview = GurmukhiUtils.safePreview(long, maxChars: 5, ellipsis: '...');
+      final preview = GurmukhiUtils.safePreview(
+        long,
+        maxChars: 5,
+        ellipsis: '...',
+      );
       expect(preview.endsWith('...'), isTrue);
     });
   });
@@ -473,54 +490,54 @@ void main() {
   // 10. BOOKMARK CORRUPT DATA RESILIENCE
   // ─────────────────────────────────────────────────────────────────────────
   group('BookmarkProvider resilience to corrupt data', () {
-    test('skips individual corrupt entries without losing valid ones', () async {
-      // We test the model-level resilience: good + bad entries in a list
-      final entries = [
-        // valid
-        {
-          'id': 'good1',
-          'baniId': 'japji',
-          'baniName': 'Japji Sahib',
-          'verseIndex': 2,
-          'versePreview': 'ਸਤਿ',
-          'createdAt': DateTime.now().toIso8601String(),
-        },
-        // corrupt — missing id
-        {
-          'baniId': 'japji',
-          'verseIndex': 0,
-        },
-        // corrupt — invalid date
-        {
-          'id': 'bad2',
-          'baniId': 'japji',
-          'baniName': 'Japji',
-          'verseIndex': 0,
-          'versePreview': 'x',
-          'createdAt': 'NOT_A_DATE',
-        },
-        // valid
-        {
-          'id': 'good2',
-          'baniId': 'rehras',
-          'baniName': 'Rehras Sahib',
-          'verseIndex': 5,
-          'versePreview': 'ਰਹਰਾਸਿ',
-          'createdAt': DateTime.now().toIso8601String(),
-        },
-      ];
+    test(
+      'skips individual corrupt entries without losing valid ones',
+      () async {
+        // We test the model-level resilience: good + bad entries in a list
+        final entries = [
+          // valid
+          {
+            'id': 'good1',
+            'baniId': 'japji',
+            'baniName': 'Japji Sahib',
+            'verseIndex': 2,
+            'versePreview': 'ਸਤਿ',
+            'createdAt': DateTime.now().toIso8601String(),
+          },
+          // corrupt — missing id
+          {'baniId': 'japji', 'verseIndex': 0},
+          // corrupt — invalid date
+          {
+            'id': 'bad2',
+            'baniId': 'japji',
+            'baniName': 'Japji',
+            'verseIndex': 0,
+            'versePreview': 'x',
+            'createdAt': 'NOT_A_DATE',
+          },
+          // valid
+          {
+            'id': 'good2',
+            'baniId': 'rehras',
+            'baniName': 'Rehras Sahib',
+            'verseIndex': 5,
+            'versePreview': 'ਰਹਰਾਸਿ',
+            'createdAt': DateTime.now().toIso8601String(),
+          },
+        ];
 
-      final loaded = <Bookmark>[];
-      for (final e in entries) {
-        try {
-          loaded.add(Bookmark.fromJson(e));
-        } on FormatException {
-          // expected for corrupt entries
+        final loaded = <Bookmark>[];
+        for (final e in entries) {
+          try {
+            loaded.add(Bookmark.fromJson(e));
+          } on FormatException {
+            // expected for corrupt entries
+          }
         }
-      }
 
-      expect(loaded.length, 2);
-      expect(loaded.map((b) => b.id).toList(), ['good1', 'good2']);
-    });
+        expect(loaded.length, 2);
+        expect(loaded.map((b) => b.id).toList(), ['good1', 'good2']);
+      },
+    );
   });
 }

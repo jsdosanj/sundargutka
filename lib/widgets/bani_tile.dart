@@ -17,10 +17,7 @@ class BaniTile extends StatelessWidget {
         bani.nameGurmukhi,
         style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w500),
       ),
-      subtitle: Text(
-        bani.nameEnglish,
-        style: const TextStyle(fontSize: 13),
-      ),
+      subtitle: Text(bani.nameEnglish, style: const TextStyle(fontSize: 13)),
       trailing: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.end,

@@ -23,7 +23,11 @@ class VishraamText extends StatelessWidget {
     if (vishraams.isEmpty) {
       return Text(
         text,
-        style: TextStyle(fontSize: fontSize, fontFamily: fontFamily, height: 1.8),
+        style: TextStyle(
+          fontSize: fontSize,
+          fontFamily: fontFamily,
+          height: 1.8,
+        ),
         textAlign: textAlign,
       );
     }

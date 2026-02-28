@@ -7,8 +7,9 @@ import 'package:sundargutka/models/verse.dart';
 
 void main() {
   group('Widget tests', () {
-    testWidgets('VishraamText renders plain text when no vishraams',
-        (WidgetTester tester) async {
+    testWidgets('VishraamText renders plain text when no vishraams', (
+      WidgetTester tester,
+    ) async {
       await tester.pumpWidget(
         const MaterialApp(
           home: Scaffold(
@@ -25,16 +26,15 @@ void main() {
       expect(find.text('ਸਤਿ ਨਾਮੁ ਕਰਤਾ'), findsOneWidget);
     });
 
-    testWidgets('VishraamText renders RichText when vishraams present',
-        (WidgetTester tester) async {
+    testWidgets('VishraamText renders RichText when vishraams present', (
+      WidgetTester tester,
+    ) async {
       await tester.pumpWidget(
         const MaterialApp(
           home: Scaffold(
             body: VishraamText(
               text: 'ਸਤਿ ਨਾਮੁ ਕਰਤਾ',
-              vishraams: [
-                Vishraam(position: 1, type: 'long'),
-              ],
+              vishraams: [Vishraam(position: 1, type: 'long')],
               fontSize: 20,
               fontFamily: 'Roboto',
             ),
@@ -45,8 +45,9 @@ void main() {
       expect(find.byType(RichText), findsOneWidget);
     });
 
-    testWidgets('SettingsProvider can be read via Provider',
-        (WidgetTester tester) async {
+    testWidgets('SettingsProvider can be read via Provider', (
+      WidgetTester tester,
+    ) async {
       final settings = SettingsProvider();
 
       await tester.pumpWidget(

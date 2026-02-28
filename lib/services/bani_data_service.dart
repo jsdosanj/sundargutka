@@ -20,8 +20,9 @@ class BaniDataService {
 
   Future<List<Bani>> loadCatalogue() async {
     try {
-      final jsonStr =
-          await rootBundle.loadString(AppConstants.baniCataloguePath);
+      final jsonStr = await rootBundle.loadString(
+        AppConstants.baniCataloguePath,
+      );
       final data = json.decode(jsonStr) as Map<String, dynamic>;
       final baniList = data['banis'] as List<dynamic>;
       return baniList

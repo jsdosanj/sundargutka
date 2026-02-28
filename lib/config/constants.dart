@@ -6,10 +6,7 @@ class AppConstants {
 
   // Font families
   static const String defaultFontFamily = 'NotoSansGurmukhi';
-  static const List<String> availableFonts = [
-    'NotoSansGurmukhi',
-    'Poppins',
-  ];
+  static const List<String> availableFonts = ['NotoSansGurmukhi', 'Poppins'];
 
   // Background themes
   static const String themeLight = 'light';

@@ -58,13 +58,13 @@ class _BaniReaderScreenState extends State<BaniReaderScreen> {
 
     final idx = _currentVisibleIndex.clamp(0, verses.length - 1);
     final verse = verses[idx];
-    final isBookmarked =
-        bookmarkProvider.isBookmarked(widget.bani.id, idx);
+    final isBookmarked = bookmarkProvider.isBookmarked(widget.bani.id, idx);
 
     if (isBookmarked) {
       bookmarkProvider.removeBookmarkByVerse(widget.bani.id, idx);
-      ScaffoldMessenger.of(context)
-          .showSnackBar(const SnackBar(content: Text('Bookmark removed')));
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text('Bookmark removed')));
     } else {
       final bookmark = Bookmark(
         id: '${widget.bani.id}_${idx}_${DateTime.now().millisecondsSinceEpoch}',
@@ -75,8 +75,9 @@ class _BaniReaderScreenState extends State<BaniReaderScreen> {
         createdAt: DateTime.now(),
       );
       bookmarkProvider.addBookmark(bookmark);
-      ScaffoldMessenger.of(context)
-          .showSnackBar(const SnackBar(content: Text('Bookmark added')));
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text('Bookmark added')));
     }
   }
 
@@ -91,21 +92,27 @@ class _BaniReaderScreenState extends State<BaniReaderScreen> {
               title: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text(widget.bani.nameGurmukhi,
-                      style: const TextStyle(fontSize: 18)),
-                  Text(widget.bani.nameEnglish,
-                      style: const TextStyle(fontSize: 12)),
+                  Text(
+                    widget.bani.nameGurmukhi,
+                    style: const TextStyle(fontSize: 18),
+                  ),
+                  Text(
+                    widget.bani.nameEnglish,
+                    style: const TextStyle(fontSize: 12),
+                  ),
                 ],
               ),
               actions: [
                 Consumer<BookmarkProvider>(
                   builder: (_, bookmarks, __) {
                     final isBookmarked = bookmarks.isBookmarked(
-                        widget.bani.id, _currentVisibleIndex);
+                      widget.bani.id,
+                      _currentVisibleIndex,
+                    );
                     return IconButton(
-                      icon: Icon(isBookmarked
-                          ? Icons.bookmark
-                          : Icons.bookmark_outline),
+                      icon: Icon(
+                        isBookmarked ? Icons.bookmark : Icons.bookmark_outline,
+                      ),
                       color: isBookmarked ? AppTheme.accentOrange : null,
                       onPressed: _toggleBookmark,
                     );

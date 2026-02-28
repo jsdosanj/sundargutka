@@ -22,11 +22,15 @@ class BookmarksScreen extends StatelessWidget {
                 children: [
                   Icon(Icons.bookmark_outline, size: 64, color: Colors.grey),
                   SizedBox(height: 12),
-                  Text('No bookmarks yet',
-                      style: TextStyle(color: Colors.grey, fontSize: 16)),
+                  Text(
+                    'No bookmarks yet',
+                    style: TextStyle(color: Colors.grey, fontSize: 16),
+                  ),
                   SizedBox(height: 4),
-                  Text('Add bookmarks while reading a Bani',
-                      style: TextStyle(color: Colors.grey, fontSize: 13)),
+                  Text(
+                    'Add bookmarks while reading a Bani',
+                    style: TextStyle(color: Colors.grey, fontSize: 13),
+                  ),
                 ],
               ),
             );
@@ -48,24 +52,35 @@ class BookmarksScreen extends StatelessWidget {
                 onDismissed: (_) => provider.removeBookmark(bookmark.id),
                 child: ListTile(
                   leading: const Icon(Icons.bookmark, color: Color(0xFFFF8C00)),
-                  title: Text(bookmark.baniName,
-                      style: const TextStyle(fontWeight: FontWeight.w600)),
+                  title: Text(
+                    bookmark.baniName,
+                    style: const TextStyle(fontWeight: FontWeight.w600),
+                  ),
                   subtitle: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(bookmark.versePreview,
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          style: const TextStyle(fontSize: 13)),
+                      Text(
+                        bookmark.versePreview,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(fontSize: 13),
+                      ),
                       Text(
                         _formatDate(bookmark.createdAt),
-                        style: const TextStyle(fontSize: 11, color: Colors.grey),
+                        style: const TextStyle(
+                          fontSize: 11,
+                          color: Colors.grey,
+                        ),
                       ),
                     ],
                   ),
                   isThreeLine: true,
-                  onTap: () => _navigateToBani(context, bookmark.baniId,
-                      bookmark.baniName, bookmark.verseIndex),
+                  onTap: () => _navigateToBani(
+                    context,
+                    bookmark.baniId,
+                    bookmark.baniName,
+                    bookmark.verseIndex,
+                  ),
                 ),
               );
             },
@@ -80,7 +95,11 @@ class BookmarksScreen extends StatelessWidget {
   }
 
   void _navigateToBani(
-      BuildContext context, String baniId, String baniName, int verseIndex) {
+    BuildContext context,
+    String baniId,
+    String baniName,
+    int verseIndex,
+  ) {
     final baniProvider = context.read<BaniProvider>();
     Bani? bani;
     try {
@@ -93,16 +112,14 @@ class BookmarksScreen extends StatelessWidget {
       Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (_) => BaniReaderScreen(
-            bani: bani!,
-            initialVerseIndex: verseIndex,
-          ),
+          builder: (_) =>
+              BaniReaderScreen(bani: bani!, initialVerseIndex: verseIndex),
         ),
       );
     } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Bani not found')),
-      );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text('Bani not found')));
     }
   }
 }

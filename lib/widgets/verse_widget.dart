@@ -34,10 +34,11 @@ class VerseWidget extends StatelessWidget {
             Text(
               verse.section!,
               style: TextStyle(
-                  fontSize: 11,
-                  color: Theme.of(context).colorScheme.primary,
-                  fontWeight: FontWeight.w600,
-                  letterSpacing: 0.5),
+                fontSize: 11,
+                color: Theme.of(context).colorScheme.primary,
+                fontWeight: FontWeight.w600,
+                letterSpacing: 0.5,
+              ),
             ),
             const SizedBox(height: 4),
           ],
@@ -64,11 +65,9 @@ class VerseWidget extends StatelessWidget {
               verse.hindi!,
               style: TextStyle(
                 fontSize: settings.fontSize * 0.75,
-                color: Theme.of(context)
-                    .textTheme
-                    .bodyMedium
-                    ?.color
-                    ?.withOpacity(0.7),
+                color: Theme.of(
+                  context,
+                ).textTheme.bodyMedium?.color?.withOpacity(0.7),
                 height: 1.6,
               ),
               textAlign: settings.textAlign,

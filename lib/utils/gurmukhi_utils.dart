@@ -3,10 +3,7 @@ class GurmukhiUtils {
   static String lareevarConvert(String text) {
     // Preserve spaces before/after sihari (੍) and other combining chars
     // Simple approach: remove spaces, but keep spaces before ॥ markers
-    return text.replaceAllMapped(
-      RegExp(r' (?!॥|।)'),
-      (_) => '',
-    );
+    return text.replaceAllMapped(RegExp(r' (?!॥|।)'), (_) => '');
   }
 
   /// Returns true if the character is in the Gurmukhi Unicode block (0A00–0A7F).
@@ -18,15 +15,14 @@ class GurmukhiUtils {
 
   /// Splits Gurmukhi text into words, filtering empty strings.
   static List<String> splitIntoWords(String text) {
-    return text
-        .split(' ')
-        .where((w) => w.trim().isNotEmpty)
-        .toList();
+    return text.split(' ').where((w) => w.trim().isNotEmpty).toList();
   }
 
   /// Returns only Gurmukhi words from a mixed string.
   static List<String> extractGurmukhiWords(String text) {
-    return splitIntoWords(text).where((w) => w.isNotEmpty && isGurmukhi(w[0])).toList();
+    return splitIntoWords(
+      text,
+    ).where((w) => w.isNotEmpty && isGurmukhi(w[0])).toList();
   }
 
   /// Counts the number of words in a Gurmukhi string.
@@ -37,7 +33,11 @@ class GurmukhiUtils {
   /// combining diacritics mid-character for multi-byte Gurmukhi script.
   ///
   /// Appends [ellipsis] when the text is truncated.
-  static String safePreview(String text, {int maxChars = 60, String ellipsis = '…'}) {
+  static String safePreview(
+    String text, {
+    int maxChars = 60,
+    String ellipsis = '…',
+  }) {
     if (text.isEmpty) return text;
     // runes gives code points, which are the correct unit for Gurmukhi
     final runes = text.runes.toList();

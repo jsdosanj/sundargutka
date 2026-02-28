@@ -21,11 +21,9 @@ class BaniProvider extends ChangeNotifier {
   String? get error => _error;
   String get searchQuery => _searchQuery;
 
-  List<Bani> get nitnemBanis =>
-      _allBanis.where((b) => b.isNitnem).toList();
+  List<Bani> get nitnemBanis => _allBanis.where((b) => b.isNitnem).toList();
 
-  List<Bani> get taksalBanis =>
-      _filterAndSearch(AppConstants.categoryTaksal);
+  List<Bani> get taksalBanis => _filterAndSearch(AppConstants.categoryTaksal);
 
   List<Bani> get buddaDalBanis =>
       _filterAndSearch(AppConstants.categoryBuddaDal);

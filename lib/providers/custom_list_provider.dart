@@ -91,8 +91,7 @@ class CustomListProvider extends ChangeNotifier {
   Future<void> removeBaniFromList(String listId, String baniId) async {
     final idx = _lists.indexWhere((l) => l.id == listId);
     if (idx >= 0) {
-      final updated = List<String>.from(_lists[idx].baniIds)
-        ..remove(baniId);
+      final updated = List<String>.from(_lists[idx].baniIds)..remove(baniId);
       _lists[idx] = _lists[idx].copyWith(baniIds: updated);
       notifyListeners();
       await _save();
@@ -132,7 +131,9 @@ class CustomListProvider extends ChangeNotifier {
   /// Generates a random hex ID to avoid timestamp collisions.
   static String _generateId() {
     final rng = Random.secure();
-    return List.generate(16, (_) => rng.nextInt(256).toRadixString(16).padLeft(2, '0'))
-        .join();
+    return List.generate(
+      16,
+      (_) => rng.nextInt(256).toRadixString(16).padLeft(2, '0'),
+    ).join();
   }
 }

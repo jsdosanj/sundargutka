@@ -21,8 +21,9 @@ class FontSizeSlider extends StatelessWidget {
             value: value,
             min: AppConstants.minFontSize,
             max: AppConstants.maxFontSize,
-            divisions: ((AppConstants.maxFontSize - AppConstants.minFontSize) / 2)
-                .round(),
+            divisions:
+                ((AppConstants.maxFontSize - AppConstants.minFontSize) / 2)
+                    .round(),
             label: '${value.round()}',
             onChanged: onChanged,
           ),

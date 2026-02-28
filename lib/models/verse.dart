@@ -16,10 +16,7 @@ class Vishraam {
     return Vishraam(position: position, type: type);
   }
 
-  Map<String, dynamic> toJson() => {
-        'position': position,
-        'type': type,
-      };
+  Map<String, dynamic> toJson() => {'position': position, 'type': type};
 }
 
 class Verse {
@@ -78,13 +75,13 @@ class Verse {
   }
 
   Map<String, dynamic> toJson() => {
-        'id': id,
-        'gurmukhi': gurmukhi,
-        'hindi': hindi,
-        'english': english,
-        'translation': translation,
-        'vishraams': vishraams.map((v) => v.toJson()).toList(),
-        'verseNumber': verseNumber,
-        'section': section,
-      };
+    'id': id,
+    'gurmukhi': gurmukhi,
+    'hindi': hindi,
+    'english': english,
+    'translation': translation,
+    'vishraams': vishraams.map((v) => v.toJson()).toList(),
+    'verseNumber': verseNumber,
+    'section': section,
+  };
 }

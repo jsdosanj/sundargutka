@@ -29,7 +29,9 @@ class Bookmark {
         verseIndex is! int ||
         versePreview is! String ||
         createdAtRaw is! String) {
-      throw const FormatException('Bookmark JSON has missing or invalid fields.');
+      throw const FormatException(
+        'Bookmark JSON has missing or invalid fields.',
+      );
     }
 
     // verseIndex must be non-negative
@@ -41,7 +43,9 @@ class Bookmark {
     try {
       createdAt = DateTime.parse(createdAtRaw);
     } on FormatException {
-      throw const FormatException('Bookmark createdAt is not a valid ISO-8601 date.');
+      throw const FormatException(
+        'Bookmark createdAt is not a valid ISO-8601 date.',
+      );
     }
 
     return Bookmark(
@@ -55,13 +59,13 @@ class Bookmark {
   }
 
   Map<String, dynamic> toJson() => {
-        'id': id,
-        'baniId': baniId,
-        'baniName': baniName,
-        'verseIndex': verseIndex,
-        'versePreview': versePreview,
-        'createdAt': createdAt.toIso8601String(),
-      };
+    'id': id,
+    'baniId': baniId,
+    'baniName': baniName,
+    'verseIndex': verseIndex,
+    'versePreview': versePreview,
+    'createdAt': createdAt.toIso8601String(),
+  };
 
   @override
   bool operator ==(Object other) => other is Bookmark && other.id == id;

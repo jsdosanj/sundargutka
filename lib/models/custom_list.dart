@@ -22,7 +22,8 @@ class CustomList {
         baniIdsRaw is! List ||
         createdAtRaw is! String) {
       throw const FormatException(
-          'CustomList JSON has missing or invalid fields.');
+        'CustomList JSON has missing or invalid fields.',
+      );
     }
 
     final DateTime createdAt;
@@ -30,38 +31,36 @@ class CustomList {
       createdAt = DateTime.parse(createdAtRaw);
     } on FormatException {
       throw const FormatException(
-          'CustomList createdAt is not a valid ISO-8601 date.');
+        'CustomList createdAt is not a valid ISO-8601 date.',
+      );
     }
 
     return CustomList(
       id: id,
       name: name,
-      baniIds: baniIdsRaw
-          .whereType<String>()
-          .toList(),
+      baniIds: baniIdsRaw.whereType<String>().toList(),
       createdAt: createdAt,
     );
   }
 
   Map<String, dynamic> toJson() => {
-        'id': id,
-        'name': name,
-        'baniIds': baniIds,
-        'createdAt': createdAt.toIso8601String(),
-      };
+    'id': id,
+    'name': name,
+    'baniIds': baniIds,
+    'createdAt': createdAt.toIso8601String(),
+  };
 
   CustomList copyWith({
     String? id,
     String? name,
     List<String>? baniIds,
     DateTime? createdAt,
-  }) =>
-      CustomList(
-        id: id ?? this.id,
-        name: name ?? this.name,
-        baniIds: baniIds ?? List.from(this.baniIds),
-        createdAt: createdAt ?? this.createdAt,
-      );
+  }) => CustomList(
+    id: id ?? this.id,
+    name: name ?? this.name,
+    baniIds: baniIds ?? List.from(this.baniIds),
+    createdAt: createdAt ?? this.createdAt,
+  );
 
   @override
   bool operator ==(Object other) => other is CustomList && other.id == id;

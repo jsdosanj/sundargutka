@@ -61,7 +61,7 @@ class SettingsScreen extends StatelessWidget {
                       final aligns = [
                         TextAlign.left,
                         TextAlign.center,
-                        TextAlign.right
+                        TextAlign.right,
                       ];
                       settings.setTextAlign(aligns[i]);
                     },
@@ -108,7 +108,8 @@ class SettingsScreen extends StatelessWidget {
                   secondary: const Icon(Icons.pause),
                   title: const Text('Show Vishraams'),
                   subtitle: const Text(
-                      'Highlight pauses (orange = long, green = short)'),
+                    'Highlight pauses (orange = long, green = short)',
+                  ),
                   value: settings.showVishraams,
                   onChanged: settings.setShowVishraams,
                 ),
@@ -133,8 +134,8 @@ class _SectionTitle extends StatelessWidget {
       child: Text(
         title,
         style: Theme.of(context).textTheme.labelLarge?.copyWith(
-              color: Theme.of(context).colorScheme.primary,
-            ),
+          color: Theme.of(context).colorScheme.primary,
+        ),
       ),
     );
   }

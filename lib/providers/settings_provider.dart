@@ -31,10 +31,17 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> loadSettings() async {
     final prefs = await SharedPreferences.getInstance();
 
-    final savedSize = prefs.getDouble(AppConstants.keyFontSize) ?? AppConstants.defaultFontSize;
-    _fontSize = savedSize.clamp(AppConstants.minFontSize, AppConstants.maxFontSize);
+    final savedSize =
+        prefs.getDouble(AppConstants.keyFontSize) ??
+        AppConstants.defaultFontSize;
+    _fontSize = savedSize.clamp(
+      AppConstants.minFontSize,
+      AppConstants.maxFontSize,
+    );
 
-    final savedFamily = prefs.getString(AppConstants.keyFontFamily) ?? AppConstants.defaultFontFamily;
+    final savedFamily =
+        prefs.getString(AppConstants.keyFontFamily) ??
+        AppConstants.defaultFontFamily;
     _fontFamily = AppConstants.availableFonts.contains(savedFamily)
         ? savedFamily
         : AppConstants.defaultFontFamily;
@@ -46,7 +53,8 @@ class SettingsProvider extends ChangeNotifier {
     _showVishraams = prefs.getBool(AppConstants.keyShowVishraams) ?? true;
 
     final savedTheme =
-        prefs.getString(AppConstants.keyBackgroundTheme) ?? AppConstants.themeLight;
+        prefs.getString(AppConstants.keyBackgroundTheme) ??
+        AppConstants.themeLight;
     _backgroundTheme = _validThemes.contains(savedTheme)
         ? savedTheme
         : AppConstants.themeLight;
