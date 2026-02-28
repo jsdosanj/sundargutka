@@ -1,0 +1,29 @@
+{
+  "id": "dukh_bhanjani",
+  "nameGurmukhi": "ਦੁਖ ਭੰਜਨੀ ਸਾਹਿਬ",
+  "nameEnglish": "Dukh Bhanjani Sahib",
+  "author": "Guru Arjan Dev Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Verse 1",
+      "gurmukhi": "ਦੁਖ ਭੰਜਨ ਤੇਰਾ ਨਾਮੁ ਜੀ ਦੁਖ ਭੰਜਨ ਤੇਰਾ ਨਾਮੁ ॥",
+      "hindi": "ਦੁਖ ਭੰਜਨ ਤੇਰਾ ਨਾਮੁ ਜੀ ਦੁਖ ਭੰਜਨ ਤੇਰਾ ਨਾਮੁ ॥", "english": "Verse 1 of Dukh Bhanjani Sahib",
+      "translation": "Verse 1 of Dukh Bhanjani Sahib",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Verse 2",
+      "gurmukhi": "ਆਠ ਪਹਰ ਆਰਾਧੀਐ ਪੂਰਨ ਸਤਿਗੁਰ ਗਿਆਨੁ ॥",
+      "hindi": "ਆਠ ਪਹਰ ਆਰਾਧੀਐ ਪੂਰਨ ਸਤਿਗੁਰ ਗਿਆਨੁ ॥", "english": "Verse 2 of Dukh Bhanjani Sahib",
+      "translation": "Verse 2 of Dukh Bhanjani Sahib",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Verse 3",
+      "gurmukhi": "ਜੋ ਮਾਗਹਿ ਠਾਕੁਰ ਅਪੁਨੇ ਤੇ ਸੋਈ ਸੋਈ ਦੇਵੈ ॥",
+      "hindi": "ਜੋ ਮਾਗਹਿ ਠਾਕੁਰ ਅਪੁਨੇ ਤੇ ਸੋਈ ਸੋਈ ਦੇਵੈ ॥", "english": "Verse 3 of Dukh Bhanjani Sahib",
+      "translation": "Verse 3 of Dukh Bhanjani Sahib",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    }
+  ]
+}

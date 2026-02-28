@@ -1,0 +1,11 @@
+{
+  "id": "brahm_kavach",
+  "nameGurmukhi": "ਬ੍ਰਹਮ ਕਵਚ",
+  "nameEnglish": "Brahm Kavach",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ਬ੍ਰਹਮ ਕਵਚ ॥ ਸ੍ਰੀ ਅਕਾਲ ਪੁਰਖ ਮੇਰੀ ਰੱਛਾ ਕਰੋ ॥", "hindi": "ਬ੍ਰਹਮ ਕਵਚ ॥ ਸ੍ਰੀ ਅਕਾਲ ਪੁਰਖ ਮੇਰੀ ਰੱਛਾ ਕਰੋ ॥", "english": "Verse 1 of Brahm Kavach", "translation": "Verse 1 of Brahm Kavach", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਸ੍ਰੀ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਕ੍ਰਿਪਾ ਦ੍ਰਿਸ਼ਟਿ ਸਦਾ ਰਹੇ ॥", "hindi": "ਸ੍ਰੀ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਕ੍ਰਿਪਾ ਦ੍ਰਿਸ਼ਟਿ ਸਦਾ ਰਹੇ ॥", "english": "Verse 2 of Brahm Kavach", "translation": "Verse 2 of Brahm Kavach", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਆਗੇ ਪਿੱਛੇ ਦਾਹਨੇ ਬਾਹਨੇ ਸ੍ਰੀ ਅਕਾਲ ਮੇਰੀ ਰੱਛਾ ਕਰੋ ॥", "hindi": "ਆਗੇ ਪਿੱਛੇ ਦਾਹਨੇ ਬਾਹਨੇ ਸ੍ਰੀ ਅਕਾਲ ਮੇਰੀ ਰੱਛਾ ਕਰੋ ॥", "english": "Verse 3 of Brahm Kavach", "translation": "Verse 3 of Brahm Kavach", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

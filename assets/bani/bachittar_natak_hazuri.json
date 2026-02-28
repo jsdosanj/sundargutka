@@ -1,0 +1,11 @@
+{
+  "id": "bachittar_natak_hazuri",
+  "nameGurmukhi": "ਬਚਿਤ੍ਰ ਨਾਟਕ",
+  "nameEnglish": "Bachittar Natak - Hazuri",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ਹੇਮ ਕੰਤ ਹਿਮ ਭੂਮਿ ਹੈ ਜਹਾਂ ॥", "hindi": "ਹੇਮ ਕੰਤ ਹਿਮ ਭੂਮਿ ਹੈ ਜਹਾਂ ॥", "english": "Verse 1 of Bachittar Natak - Hazuri", "translation": "Verse 1 of Bachittar Natak - Hazuri", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਬਾਸਤਿ ਦੇਵ ਬਿਲੋਕਿ ਤਹਾਂ ॥", "hindi": "ਬਾਸਤਿ ਦੇਵ ਬਿਲੋਕਿ ਤਹਾਂ ॥", "english": "Verse 2 of Bachittar Natak - Hazuri", "translation": "Verse 2 of Bachittar Natak - Hazuri", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਨਾਨਾ ਖੇਲ ਕਰਤ ਤਿਹ ਠਾਂਈ ॥", "hindi": "ਨਾਨਾ ਖੇਲ ਕਰਤ ਤਿਹ ਠਾਂਈ ॥", "english": "Verse 3 of Bachittar Natak - Hazuri", "translation": "Verse 3 of Bachittar Natak - Hazuri", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "dakhni_oankar",
+  "nameGurmukhi": "ਦਖਣੀ ਓਅੰਕਾਰੁ",
+  "nameEnglish": "Dakhni Oankar",
+  "author": "Guru Nanak Dev Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Verse 1",
+      "gurmukhi": "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥",
+      "hindi": "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥", "english": "Verse 1 of Dakhni Oankar",
+      "translation": "Verse 1 of Dakhni Oankar",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Verse 2",
+      "gurmukhi": "ਓਅੰਕਾਰਿ ਬ੍ਰਹਮਾ ਉਤਪਤਿ ॥ ਓਅੰਕਾਰੁ ਕੀਆ ਜਿਨਿ ਚਿਤਿ ॥",
+      "hindi": "ਓਅੰਕਾਰਿ ਬ੍ਰਹਮਾ ਉਤਪਤਿ ॥ ਓਅੰਕਾਰੁ ਕੀਆ ਜਿਨਿ ਚਿਤਿ ॥", "english": "Verse 2 of Dakhni Oankar",
+      "translation": "Verse 2 of Dakhni Oankar",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Verse 3",
+      "gurmukhi": "ਓਅੰਕਾਰਿ ਸੈਲ ਜੁਗ ਭਏ ॥ ਓਅੰਕਾਰਿ ਬੇਦ ਨਿਰਮਏ ॥",
+      "hindi": "ਓਅੰਕਾਰਿ ਸੈਲ ਜੁਗ ਭਏ ॥ ਓਅੰਕਾਰਿ ਬੇਦ ਨਿਰਮਏ ॥", "english": "Verse 3 of Dakhni Oankar",
+      "translation": "Verse 3 of Dakhni Oankar",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "rehras_sahib",
+  "nameGurmukhi": "ਰਹਰਾਸਿ ਸਾਹਿਬ",
+  "nameEnglish": "Rehras Sahib",
+  "author": "Various Gurus",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Sodar",
+      "gurmukhi": "ਸੋ ਦਰੁ ਕੇਹਾ ਸੋ ਘਰੁ ਕੇਹਾ ਜਿਤੁ ਬਹਿ ਸਰਬ ਸਮਾਲੇ ॥",
+      "hindi": "सो दरु केहा सो घरु केहा जितु बहि सरब समाले ॥", "english": "What is that door, and what is that house, in which You sit and take care of all?",
+      "translation": "What is that gate, what is that dwelling, wherein You sit and care for all?",
+      "vishraams": [{"position": 3, "type": "short"}, {"position": 6, "type": "short"}, {"position": 10, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Sodar",
+      "gurmukhi": "ਵਾਜੇ ਨਾਦ ਅਨੇਕ ਅਸੰਖਾ ਕੇਤੇ ਵਾਵਣਹਾਰੇ ॥",
+      "hindi": "वाजे नाद अनेक असंखा केते वावणहारे ॥", "english": "Countless musical instruments of so many various kinds play there; so many are the players.",
+      "translation": "Countless musical instruments of innumerable kinds are played; so many are the musicians.",
+      "vishraams": [{"position": 3, "type": "short"}, {"position": 6, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Sodar",
+      "gurmukhi": "ਕੇਤੇ ਰਾਗ ਪਰੀ ਸਿਉ ਕਹੀਅਨਿ ਕੇਤੇ ਗਾਵਣਹਾਰੇ ॥",
+      "hindi": "केते राग परी सिउ कहीअनि केते गावणहारे ॥", "english": "So many Ragas, with their accompaniments, are mentioned there; so many are the singers.",
+      "translation": "So many ragas with their companions are mentioned; so many are the singers.",
+      "vishraams": [{"position": 4, "type": "short"}, {"position": 7, "type": "long"}]
+    },
+    {
+      "id": 4, "verseNumber": 4, "section": "Sodar",
+      "gurmukhi": "ਗਾਵਨਿ ਤੁਧਨੋ ਪਉਣੁ ਪਾਣੀ ਬੈਸੰਤਰੁ ਗਾਵੈ ਰਾਜਾ ਧਰਮੁ ਦੁਆਰੇ ॥",
+      "hindi": "गावनि तुधनो पउणु पाणी बैसंतरु गावै राजा धरमु दुआरे ॥", "english": "The wind, water and fire sing of You. The Righteous Judge of Dharma sings at Your door.",
+      "translation": "The wind, water and fire sing of You. Dharmaraj sings at Your door.",
+      "vishraams": [{"position": 4, "type": "short"}, {"position": 6, "type": "short"}, {"position": 11, "type": "long"}]
+    },
+    {
+      "id": 5, "verseNumber": 5, "section": "Sodar",
+      "gurmukhi": "ਗਾਵਨਿ ਤੁਧਨੋ ਚਿਤੁ ਗੁਪਤੁ ਲਿਖਿ ਜਾਣਨਿ ਲਿਖਿ ਲਿਖਿ ਧਰਮੁ ਵੀਚਾਰੇ ॥",
+      "hindi": "गावनि तुधनो चितु गुपतु लिखि जाणनि लिखि लिखि धरमु वीचारे ॥", "english": "Chitr and Gupt, who record the accounts of actions, sing of You; they know and write what is written and contemplate Dharma.",
+      "translation": "Chitr and Gupt, who record the account of deeds, sing of You; they write and contemplate Dharma.",
+      "vishraams": [{"position": 3, "type": "short"}, {"position": 7, "type": "short"}, {"position": 11, "type": "long"}]
+    }
+  ]
+}

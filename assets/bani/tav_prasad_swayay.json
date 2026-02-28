@@ -1,0 +1,29 @@
+{
+  "id": "tav_prasad_swayay",
+  "nameGurmukhi": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ ਸ੍ਵਯੇ",
+  "nameEnglish": "Tav Prasad Swayay",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Verse 1",
+      "gurmukhi": "ਸ੍ਰਾਵਗ ਸੁਧ ਸਮੂਹ ਸਿਧਾਨ ਕੇ ਦੇਖਿ ਫਿਰਿਓ ਘਰ ਜੋਗ ਜਤੀ ਕੇ ॥",
+      "hindi": "ਸ੍ਰਾਵਗ ਸੁਧ ਸਮੂਹ ਸਿਧਾਨ ਕੇ ਦੇਖਿ ਫਿਰਿਓ ਘਰ ਜੋਗ ਜਤੀ ਕੇ ॥", "english": "Verse 1 of Tav Prasad Swayay",
+      "translation": "Verse 1 of Tav Prasad Swayay",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Verse 2",
+      "gurmukhi": "ਸੁਰ ਸਿਧ ਗਣੇਸ਼ਹਿ ਬ੍ਰਹਮਹਿ ਇੰਦ੍ਰਹਿ ਸੇਵਤ ਸੁਨ ਕਰਿ ਭੇਦ ਭ੍ਰਮੀ ਕੇ ॥",
+      "hindi": "ਸੁਰ ਸਿਧ ਗਣੇਸ਼ਹਿ ਬ੍ਰਹਮਹਿ ਇੰਦ੍ਰਹਿ ਸੇਵਤ ਸੁਨ ਕਰਿ ਭੇਦ ਭ੍ਰਮੀ ਕੇ ॥", "english": "Verse 2 of Tav Prasad Swayay",
+      "translation": "Verse 2 of Tav Prasad Swayay",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Verse 3",
+      "gurmukhi": "ਇੰਦ੍ਰਹਿ ਕੋਪਿ ਕੈ ਤੀਰ ਚਲਾਇ ਦਿਏ ਜਿਹ ਸਾਥਿ ਕਦੇ ਨ ਕਿਨੇ ਸੁ ਜੁ ਕੀ ॥",
+      "hindi": "ਇੰਦ੍ਰਹਿ ਕੋਪਿ ਕੈ ਤੀਰ ਚਲਾਇ ਦਿਏ ਜਿਹ ਸਾਥਿ ਕਦੇ ਨ ਕਿਨੇ ਸੁ ਜੁ ਕੀ ॥", "english": "Verse 3 of Tav Prasad Swayay",
+      "translation": "Verse 3 of Tav Prasad Swayay",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    }
+  ]
+}

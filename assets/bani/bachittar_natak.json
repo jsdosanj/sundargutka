@@ -1,0 +1,29 @@
+{
+  "id": "bachittar_natak",
+  "nameGurmukhi": "ਬਚਿਤ੍ਰ ਨਾਟਕ",
+  "nameEnglish": "Bachittar Natak",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Verse 1",
+      "gurmukhi": "ਸ੍ਰੀ ਮੁਖਵਾਕ ਪਾਤਿਸਾਹੀ ੧੦ ॥ ਬਚਿਤ੍ਰ ਨਾਟਕ ਗ੍ਰੰਥ ਕੀ ਕਥਾ ॥",
+      "hindi": "ਸ੍ਰੀ ਮੁਖਵਾਕ ਪਾਤਿਸਾਹੀ ੧੦ ॥ ਬਚਿਤ੍ਰ ਨਾਟਕ ਗ੍ਰੰਥ ਕੀ ਕਥਾ ॥", "english": "Verse 1 of Bachittar Natak",
+      "translation": "Verse 1 of Bachittar Natak",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Verse 2",
+      "gurmukhi": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ ॥ ਚੌਪਈ ॥ ਭੁਜੰਗ ਪ੍ਰਯਾਤ ॥",
+      "hindi": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ ॥ ਚੌਪਈ ॥ ਭੁਜੰਗ ਪ੍ਰਯਾਤ ॥", "english": "Verse 2 of Bachittar Natak",
+      "translation": "Verse 2 of Bachittar Natak",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Verse 3",
+      "gurmukhi": "ਹੇਮ ਕੰਤ ਹਿਮ ਭੂਮਿ ਹੈ ਜਹਾਂ ॥ ਬਾਸਤਿ ਦੇਵ ਬਿਲੋਕਿ ਤਹਾਂ ॥",
+      "hindi": "ਹੇਮ ਕੰਤ ਹਿਮ ਭੂਮਿ ਹੈ ਜਹਾਂ ॥ ਬਾਸਤਿ ਦੇਵ ਬਿਲੋਕਿ ਤਹਾਂ ॥", "english": "Verse 3 of Bachittar Natak",
+      "translation": "Verse 3 of Bachittar Natak",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    }
+  ]
+}

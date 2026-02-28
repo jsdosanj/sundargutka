@@ -1,0 +1,11 @@
+{
+  "id": "slok_dumally_da",
+  "nameGurmukhi": "ਸਲੋਕ ਦੁਮੱਲੇ ਦਾ",
+  "nameEnglish": "Slok Dumally Da",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ਸਗਲ ਦੁਆਰ ਕਉ ਛਾਡਿ ਕੈ ਗਹਿਓ ਤੁਹਾਰੋ ਦੁਆਰ ॥", "hindi": "ਸਗਲ ਦੁਆਰ ਕਉ ਛਾਡਿ ਕੈ ਗਹਿਓ ਤੁਹਾਰੋ ਦੁਆਰ ॥", "english": "Verse 1 of Slok Dumally Da", "translation": "Verse 1 of Slok Dumally Da", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਬਾਹੁ ਗਹੇ ਕੀ ਲਾਜ ਅਸ ਗੋਬਿੰਦ ਦਾਸ ਤੁਹਾਰ ॥", "hindi": "ਬਾਹੁ ਗਹੇ ਕੀ ਲਾਜ ਅਸ ਗੋਬਿੰਦ ਦਾਸ ਤੁਹਾਰ ॥", "english": "Verse 2 of Slok Dumally Da", "translation": "Verse 2 of Slok Dumally Da", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਦੁਮੱਲਾ ਸਾਹਿਬ ਸ੍ਰੀ ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਜੀ ਦਾ ॥", "hindi": "ਦੁਮੱਲਾ ਸਾਹਿਬ ਸ੍ਰੀ ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਜੀ ਦਾ ॥", "english": "Verse 3 of Slok Dumally Da", "translation": "Verse 3 of Slok Dumally Da", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

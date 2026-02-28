@@ -1,0 +1,11 @@
+{
+  "id": "khalsa_rehitnama",
+  "nameGurmukhi": "ਖ਼ਾਲਸਾ ਰਹਿਤਨਾਮਾ",
+  "nameEnglish": "Khalsa Rehitnama",
+  "author": "Various",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ਖ਼ਾਲਸਾ ਰਹਿਤਨਾਮਾ ॥ ਸ੍ਰੀ ਅਕਾਲ ਪੁਰਖ ਜੀ ਕੀ ਫਤਹ ॥", "hindi": "ਖ਼ਾਲਸਾ ਰਹਿਤਨਾਮਾ ॥ ਸ੍ਰੀ ਅਕਾਲ ਪੁਰਖ ਜੀ ਕੀ ਫਤਹ ॥", "english": "Verse 1 of Khalsa Rehitnama", "translation": "Verse 1 of Khalsa Rehitnama", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਰਹਿਤ ਬਿਨਾ ਨਹਿ ਸਿੱਖੁ ਕਹਾਵੈ ਰਹਿਤ ਬਿਨਾ ਦਰਬਾਰ ਨ ਪਾਵੈ ॥", "hindi": "ਰਹਿਤ ਬਿਨਾ ਨਹਿ ਸਿੱਖੁ ਕਹਾਵੈ ਰਹਿਤ ਬਿਨਾ ਦਰਬਾਰ ਨ ਪਾਵੈ ॥", "english": "Verse 2 of Khalsa Rehitnama", "translation": "Verse 2 of Khalsa Rehitnama", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਅੰਮ੍ਰਿਤ ਛਕੋ ਗੁਰਮੰਤ੍ਰ ਜਪੋ ਸਦਾ ਰਹੋ ਗੁਰ ਸੰਗਤਿ ਵਿੱਚ ॥", "hindi": "ਅੰਮ੍ਰਿਤ ਛਕੋ ਗੁਰਮੰਤ੍ਰ ਜਪੋ ਸਦਾ ਰਹੋ ਗੁਰ ਸੰਗਤਿ ਵਿੱਚ ॥", "english": "Verse 3 of Khalsa Rehitnama", "translation": "Verse 3 of Khalsa Rehitnama", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

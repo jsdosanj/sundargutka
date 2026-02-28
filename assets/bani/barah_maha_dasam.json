@@ -1,0 +1,11 @@
+{
+  "id": "barah_maha_dasam",
+  "nameGurmukhi": "ਬਾਰਹ ਮਾਹਾ ਦਸਮ ਗ੍ਰੰਥ",
+  "nameEnglish": "Barah Maha - Dasam Granth",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਬਾਰਹ ਮਾਹਾ ਦਸਮ ਗ੍ਰੰਥ ॥", "hindi": "ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਬਾਰਹ ਮਾਹਾ ਦਸਮ ਗ੍ਰੰਥ ॥", "english": "Verse 1 of Barah Maha - Dasam Granth", "translation": "Verse 1 of Barah Maha - Dasam Granth", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਕਿਰਤਿ ਕਰਮ ਕੇ ਵੀਛੁੜੇ ਕਰਿ ਕਿਰਪਾ ਮੇਲਹੁ ਰਾਮ ॥", "hindi": "ਕਿਰਤਿ ਕਰਮ ਕੇ ਵੀਛੁੜੇ ਕਰਿ ਕਿਰਪਾ ਮੇਲਹੁ ਰਾਮ ॥", "english": "Verse 2 of Barah Maha - Dasam Granth", "translation": "Verse 2 of Barah Maha - Dasam Granth", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਚੇਤਿ ਗੋਵਿੰਦੁ ਅਰਾਧੀਐ ਹੋਵੈ ਅਨੰਦੁ ਘਣਾ ॥", "hindi": "ਚੇਤਿ ਗੋਵਿੰਦੁ ਅਰਾਧੀਐ ਹੋਵੈ ਅਨੰਦੁ ਘਣਾ ॥", "english": "Verse 3 of Barah Maha - Dasam Granth", "translation": "Verse 3 of Barah Maha - Dasam Granth", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "chaupai_sahib",
+  "nameGurmukhi": "ਬੇਨਤੀ ਚੌਪਈ",
+  "nameEnglish": "Chaupai Sahib",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Chaupai",
+      "gurmukhi": "ਹਮਰੀ ਕਰੋ ਹਾਥ ਦੈ ਰੱਛਾ ॥ ਪੂਰਨ ਹੋਇ ਚਿੱਤ ਕੀ ਇੱਛਾ ॥",
+      "hindi": "हमरी करो हाथ दै रछा ॥ पूरन होइ चित की इछा ॥", "english": "Protect us with Your Hand. May the desires of our minds be fulfilled.",
+      "translation": "Protect us with Your hand. May the desires of our minds be fulfilled.",
+      "vishraams": [{"position": 4, "type": "long"}, {"position": 9, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Chaupai",
+      "gurmukhi": "ਤਵ ਚਰਨਨ ਮਨ ਰਹੈ ਹਮਾਰਾ ॥ ਅਪਨਾ ਜਾਨਹੁ ਦਾਸ ਤੁਮਾਰਾ ॥",
+      "hindi": "तव चरनन मन रहै हमारा ॥ अपना जानहु दास तुमारा ॥", "english": "May my mind dwell at Your feet. Know me as Your servant.",
+      "translation": "May our minds remain at Your feet. Please consider us Your own servants.",
+      "vishraams": [{"position": 4, "type": "long"}, {"position": 8, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Chaupai",
+      "gurmukhi": "ਅਪਨੀ ਭਗਤਿ ਤੋਹਿ ਹਮ ਦੇਹੁ ॥ ਦੂਜੀ ਭਗਤਿ ਨ ਮਨ ਮੋ ਲੇਹੁ ॥",
+      "hindi": "अपनी भगति तोहि हम देहु ॥ दूजी भगति न मन मो लेहु ॥", "english": "Grant us devotion to You. Let no other devotion enter our minds.",
+      "translation": "Grant us devotion to You alone. Let no other devotion enter our minds.",
+      "vishraams": [{"position": 4, "type": "long"}, {"position": 9, "type": "long"}]
+    },
+    {
+      "id": 4, "verseNumber": 4, "section": "Chaupai",
+      "gurmukhi": "ਜਬ ਲਗ ਜੀਉ ਘਟ ਮਹਿ ਰਹਨਾ ॥ ਤਬ ਲਗ ਨਾਮੁ ਰਿਦੇ ਮਹਿ ਕਹਨਾ ॥",
+      "hindi": "जब लग जीउ घट महि रहना ॥ तब लग नामु रिदे महि कहना ॥", "english": "As long as this soul dwells in this body, let me chant Your Name in my heart.",
+      "translation": "As long as the soul dwells within, let the Name dwell in the heart.",
+      "vishraams": [{"position": 4, "type": "long"}, {"position": 9, "type": "long"}]
+    },
+    {
+      "id": 5, "verseNumber": 5, "section": "Chaupai",
+      "gurmukhi": "ਸਤਿਗੁਰੁ ਸਹਾਈ ਸਦਾ ਸੰਗਿ ॥ ਸਾਧਸੰਗਤਿ ਊਬਰੇ ਸਭਿ ਰੰਗਿ ॥",
+      "hindi": "सतिगुरु सहाई सदा संगि ॥ साधसंगति ऊबरे सभि रंगि ॥", "english": "The True Guru is the helper, ever with us. In the holy congregation, all are saved through all colors.",
+      "translation": "The True Guru is always the helper and companion. Through the holy congregation, all are saved.",
+      "vishraams": [{"position": 3, "type": "short"}, {"position": 5, "type": "long"}, {"position": 9, "type": "long"}]
+    }
+  ]
+}

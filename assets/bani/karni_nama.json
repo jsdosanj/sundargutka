@@ -1,0 +1,11 @@
+{
+  "id": "karni_nama",
+  "nameGurmukhi": "ਕਰਨੀ ਨਾਮਾ",
+  "nameEnglish": "Karni Nama",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ਕਰਨੀ ਨਾਮਾ ॥ ਸ੍ਰੀ ਮੁਖਵਾਕ ਪਾਤਿਸਾਹੀ ੧੦ ॥", "hindi": "ਕਰਨੀ ਨਾਮਾ ॥ ਸ੍ਰੀ ਮੁਖਵਾਕ ਪਾਤਿਸਾਹੀ ੧੦ ॥", "english": "Verse 1 of Karni Nama", "translation": "Verse 1 of Karni Nama", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਸਤਿਗੁਰ ਕੀ ਕਰਨੀ ਦੇਖਹੁ ਭਾਈ ਮਨਿ ਤਨਿ ਸੁਖੁ ਪਾਵਹੁ ਰੇ ॥", "hindi": "ਸਤਿਗੁਰ ਕੀ ਕਰਨੀ ਦੇਖਹੁ ਭਾਈ ਮਨਿ ਤਨਿ ਸੁਖੁ ਪਾਵਹੁ ਰੇ ॥", "english": "Verse 2 of Karni Nama", "translation": "Verse 2 of Karni Nama", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਸਦਾ ਕਰੋ ਸਤਿਗੁਰ ਕੀ ਸੇਵਾ ਮਨ ਤੇ ਭਰਮੁ ਗਵਾਵਹੁ ਰੇ ॥", "hindi": "ਸਦਾ ਕਰੋ ਸਤਿਗੁਰ ਕੀ ਸੇਵਾ ਮਨ ਤੇ ਭਰਮੁ ਗਵਾਵਹੁ ਰੇ ॥", "english": "Verse 3 of Karni Nama", "translation": "Verse 3 of Karni Nama", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

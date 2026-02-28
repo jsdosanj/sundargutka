@@ -1,0 +1,29 @@
+{
+  "id": "sidh_gosht",
+  "nameGurmukhi": "ਸਿਧ ਗੋਸਟਿ",
+  "nameEnglish": "Sidh Gosht",
+  "author": "Guru Nanak Dev Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Verse 1",
+      "gurmukhi": "ਸਿਧ ਗੋਸਟਿ ॥ ਰਾਗੁ ਰਾਮਕਲੀ ਮਹਲਾ ੧ ॥",
+      "hindi": "ਸਿਧ ਗੋਸਟਿ ॥ ਰਾਗੁ ਰਾਮਕਲੀ ਮਹਲਾ ੧ ॥", "english": "Verse 1 of Sidh Gosht",
+      "translation": "Verse 1 of Sidh Gosht",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Verse 2",
+      "gurmukhi": "ਕਿਤੁ ਬਿਧਿ ਪੁਰਖਾ ਜਨਮੁ ਵਟਾਇਆ ॥",
+      "hindi": "ਕਿਤੁ ਬਿਧਿ ਪੁਰਖਾ ਜਨਮੁ ਵਟਾਇਆ ॥", "english": "Verse 2 of Sidh Gosht",
+      "translation": "Verse 2 of Sidh Gosht",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Verse 3",
+      "gurmukhi": "ਗੁਰਮੁਖਿ ਜਨਮੁ ਸਵਾਰਹਿ ਅਪਨਾ ॥",
+      "hindi": "ਗੁਰਮੁਖਿ ਜਨਮੁ ਸਵਾਰਹਿ ਅਪਨਾ ॥", "english": "Verse 3 of Sidh Gosht",
+      "translation": "Verse 3 of Sidh Gosht",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    }
+  ]
+}

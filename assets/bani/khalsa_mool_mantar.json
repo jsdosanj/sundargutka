@@ -1,0 +1,11 @@
+{
+  "id": "khalsa_mool_mantar",
+  "nameGurmukhi": "ਖ਼ਾਲਸਾ ਮੂਲ ਮੰਤਰ",
+  "nameEnglish": "Khalsa Mool Mantar",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {"id": 1, "verseNumber": 1, "section": "Verse 1", "gurmukhi": "ਖ਼ਾਲਸਾ ਮੇਰੋ ਰੂਪ ਹੈ ਖ਼ਾਸ ॥ ਖ਼ਾਲਸੇ ਮਹਿ ਹਉ ਕਰਉ ਨਿਵਾਸ ॥", "hindi": "ਖ਼ਾਲਸਾ ਮੇਰੋ ਰੂਪ ਹੈ ਖ਼ਾਸ ॥ ਖ਼ਾਲਸੇ ਮਹਿ ਹਉ ਕਰਉ ਨਿਵਾਸ ॥", "english": "Verse 1 of Khalsa Mool Mantar", "translation": "Verse 1 of Khalsa Mool Mantar", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 2, "verseNumber": 2, "section": "Verse 2", "gurmukhi": "ਖ਼ਾਲਸਾ ਮੇਰੋ ਮੁਖੁ ਹੈ ਅੰਗਾ ॥ ਖ਼ਾਲਸੇ ਕੇ ਹਉ ਸਦ ਸਦ ਸੰਗਾ ॥", "hindi": "ਖ਼ਾਲਸਾ ਮੇਰੋ ਮੁਖੁ ਹੈ ਅੰਗਾ ॥ ਖ਼ਾਲਸੇ ਕੇ ਹਉ ਸਦ ਸਦ ਸੰਗਾ ॥", "english": "Verse 2 of Khalsa Mool Mantar", "translation": "Verse 2 of Khalsa Mool Mantar", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]},
+    {"id": 3, "verseNumber": 3, "section": "Verse 3", "gurmukhi": "ਖ਼ਾਲਸਾ ਮੇਰੀ ਜਾਤਿ ਅਰੁ ਪਾਤਿ ॥ ਖ਼ਾਲਸੇ ਕਉ ਹਉ ਸਦਾ ਅਕ੍ਰਾਤਿ ॥", "hindi": "ਖ਼ਾਲਸਾ ਮੇਰੀ ਜਾਤਿ ਅਰੁ ਪਾਤਿ ॥ ਖ਼ਾਲਸੇ ਕਉ ਹਉ ਸਦਾ ਅਕ੍ਰਾਤਿ ॥", "english": "Verse 3 of Khalsa Mool Mantar", "translation": "Verse 3 of Khalsa Mool Mantar", "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]}
+  ]
+}

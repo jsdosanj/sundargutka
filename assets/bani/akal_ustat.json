@@ -1,0 +1,29 @@
+{
+  "id": "akal_ustat",
+  "nameGurmukhi": "ਅਕਾਲ ਉਸਤਤਿ",
+  "nameEnglish": "Akal Ustat",
+  "author": "Guru Gobind Singh Ji",
+  "verses": [
+    {
+      "id": 1, "verseNumber": 1, "section": "Verse 1",
+      "gurmukhi": "ਸ੍ਰੀ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥",
+      "hindi": "ਸ੍ਰੀ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥", "english": "Verse 1 of Akal Ustat",
+      "translation": "Verse 1 of Akal Ustat",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 2, "verseNumber": 2, "section": "Verse 2",
+      "gurmukhi": "ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ॥ ਪਾਤਸਾਹੀ ੧੦ ॥",
+      "hindi": "ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ॥ ਪਾਤਸਾਹੀ ੧੦ ॥", "english": "Verse 2 of Akal Ustat",
+      "translation": "Verse 2 of Akal Ustat",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    },
+    {
+      "id": 3, "verseNumber": 3, "section": "Verse 3",
+      "gurmukhi": "ਤੁਮ ਹੀ ਕਾਲ ਦੁਕਾਲ ਤੁਮ ਹੀ ਤੁਮ ਹੀ ਦੁਖ ਹਰਤਾ ॥",
+      "hindi": "ਤੁਮ ਹੀ ਕਾਲ ਦੁਕਾਲ ਤੁਮ ਹੀ ਤੁਮ ਹੀ ਦੁਖ ਹਰਤਾ ॥", "english": "Verse 3 of Akal Ustat",
+      "translation": "Verse 3 of Akal Ustat",
+      "vishraams": [{"position": 2, "type": "short"}, {"position": 5, "type": "long"}]
+    }
+  ]
+}
