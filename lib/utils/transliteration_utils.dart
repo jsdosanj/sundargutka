@@ -1,3 +1,5 @@
+import 'package:characters/characters.dart';
+
 /// Basic transliteration utilities for Gurmukhi.
 /// Full transliteration requires a comprehensive mapping table.
 /// This is a placeholder for future implementation.
@@ -57,12 +59,4 @@ class TransliterationUtils {
 
   /// Placeholder: returns the text unchanged until full implementation.
   static String toDevanagari(String gurmukhi) => gurmukhi;
-}
-
-extension StringCharacters on String {
-  Iterable<String> get characters sync* {
-    for (int i = 0; i < length; i++) {
-      yield this[i];
-    }
-  }
 }

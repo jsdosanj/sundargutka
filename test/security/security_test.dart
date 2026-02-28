@@ -10,6 +10,7 @@
 //   7. Vishraam position validation
 //   8. BookmarkProvider: resilience to corrupt stored data
 
+import 'package:characters/characters.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -420,7 +421,7 @@ void main() {
       final listId = provider.lists.first.id;
       await provider.addBaniToList(listId, 'japji');
       // oldIndex=5 is out of bounds for a 1-item list — must not throw
-      expect(() async => provider.reorderBanis(listId, 5, 0), returnsNormally);
+      await provider.reorderBanis(listId, 5, 0);
     });
   });
 
@@ -452,22 +453,22 @@ void main() {
       expect(GurmukhiUtils.safePreview(text), text);
     });
 
-    test('truncates long text to exactly maxChars code points', () {
+    test('truncates long text to exactly maxChars grapheme clusters', () {
       // 100 Gurmukhi chars
       final long = 'ਸ' * 100;
       final preview = GurmukhiUtils.safePreview(long, maxChars: 60);
-      // Verify truncation: result rune count == maxChars + 1 (ellipsis)
-      expect(preview.runes.length, 61); // 60 chars + '…'
+      // Verify truncation: result grapheme count == maxChars + 1 (ellipsis)
+      expect(preview.characters.length, 61); // 60 chars + '…'
     });
 
-    test('does not split Gurmukhi surrogate characters', () {
-      // Multi-codepoint Gurmukhi string — ensure no half-characters
+    test('does not split Gurmukhi combining sequences', () {
+      // Multi-codepoint Gurmukhi string — ensure no split combining marks
       const gurmukhi =
           'ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ';
       final preview = GurmukhiUtils.safePreview(gurmukhi, maxChars: 30);
-      // Each rune must be a valid Unicode code point
-      for (final rune in preview.runes) {
-        expect(rune, greaterThan(0));
+      // Each grapheme cluster must be a valid character
+      for (final grapheme in preview.characters) {
+        expect(grapheme.isNotEmpty, isTrue);
       }
     });
 

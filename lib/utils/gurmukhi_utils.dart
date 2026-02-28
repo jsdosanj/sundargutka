@@ -1,3 +1,5 @@
+import 'package:characters/characters.dart';
+
 class GurmukhiUtils {
   /// Removes spaces between Gurmukhi words (Lareevar mode).
   static String lareevarConvert(String text) {
@@ -28,9 +30,9 @@ class GurmukhiUtils {
   /// Counts the number of words in a Gurmukhi string.
   static int wordCount(String text) => splitIntoWords(text).length;
 
-  /// Returns a safe preview of [text] limited to [maxChars] Unicode code points
-  /// (not raw UTF-16 code units). This prevents splitting surrogate pairs or
-  /// combining diacritics mid-character for multi-byte Gurmukhi script.
+  /// Returns a safe preview of [text] limited to [maxChars] grapheme clusters.
+  /// This prevents splitting combining sequences (common in Indic scripts)
+  /// mid-character for multi-byte Gurmukhi script.
   ///
   /// Appends [ellipsis] when the text is truncated.
   static String safePreview(
@@ -39,9 +41,8 @@ class GurmukhiUtils {
     String ellipsis = '…',
   }) {
     if (text.isEmpty) return text;
-    // runes gives code points, which are the correct unit for Gurmukhi
-    final runes = text.runes.toList();
-    if (runes.length <= maxChars) return text;
-    return String.fromCharCodes(runes.take(maxChars)) + ellipsis;
+    final graphemes = text.characters;
+    if (graphemes.length <= maxChars) return text;
+    return graphemes.take(maxChars).toString() + ellipsis;
   }
 }

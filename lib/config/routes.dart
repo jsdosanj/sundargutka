@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../screens/about_screen.dart';
-import '../screens/bani_reader_screen.dart';
 import '../screens/bookmarks_screen.dart';
 import '../screens/custom_list_screen.dart';
 import '../screens/home_screen.dart';

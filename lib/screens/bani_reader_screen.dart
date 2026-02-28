@@ -30,6 +30,7 @@ class _BaniReaderScreenState extends State<BaniReaderScreen> {
   final ItemPositionsListener _positionsListener =
       ItemPositionsListener.create();
   int _currentVisibleIndex = 0;
+  late final VoidCallback _positionListener;
 
   @override
   void initState() {
@@ -37,7 +38,7 @@ class _BaniReaderScreenState extends State<BaniReaderScreen> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       context.read<BaniProvider>().loadBani(widget.bani);
     });
-    _positionsListener.itemPositions.addListener(() {
+    _positionListener = () {
       final positions = _positionsListener.itemPositions.value;
       if (positions.isNotEmpty) {
         setState(() {
@@ -47,7 +48,14 @@ class _BaniReaderScreenState extends State<BaniReaderScreen> {
               .index;
         });
       }
-    });
+    };
+    _positionsListener.itemPositions.addListener(_positionListener);
+  }
+
+  @override
+  void dispose() {
+    _positionsListener.itemPositions.removeListener(_positionListener);
+    super.dispose();
   }
 
   void _toggleBookmark() {
