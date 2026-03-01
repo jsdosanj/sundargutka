@@ -1,7 +1,6 @@
 # ਸੁੰਦਰ ਗੁਟਕਾ — Sundar Gutka
 
-> **Complete Gurbani Prayer Book App** for iOS and Android  
-> Damdami Taksal Edition
+> **Complete Gurbani Prayer Book App** for iOS and Android
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)](https://flutter.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -138,5 +137,5 @@ Gurbani text is the eternal Word of the Guru and belongs to the Sikh Panth.
 
 ---
 
-## ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ, ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ
+## ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ, ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ ਜੀ
 Complete Sundar Gutka App written using Flutter for iOS &amp; Android
